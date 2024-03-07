@@ -1,10 +1,10 @@
-package ani.shiroin.download
+package ani.dantotsu.download
 
 import android.content.Context
 import android.os.Environment
 import android.widget.Toast
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.File
@@ -57,7 +57,7 @@ class DownloadsManager(private val context: Context) {
         }
         val directory = File(
             context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/$subDirectory/$title"
+            "Dantotsu/$subDirectory/$title"
         )
         if (directory.exists()) {
             val deleted = directory.deleteRecursively()
@@ -103,7 +103,7 @@ class DownloadsManager(private val context: Context) {
         }
         val directory = File(
             context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/$subDirectory"
+            "Dantotsu/$subDirectory"
         )
         val downloadsSubLists = if (type == DownloadedType.Type.MANGA) {
             mangaDownloadedTypes
@@ -138,7 +138,7 @@ class DownloadsManager(private val context: Context) {
         val jsonString = gson.toJson(downloadsList)
         val file = File(
             context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/downloads.json"
+            "Dantotsu/downloads.json"
         )
         if (file.parentFile?.exists() == false) {
             file.parentFile?.mkdirs()
@@ -165,17 +165,17 @@ class DownloadsManager(private val context: Context) {
         val directory = if (downloadedType.type == DownloadedType.Type.MANGA) {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Manga/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Manga/${downloadedType.title}/${downloadedType.chapter}"
             )
         } else if (downloadedType.type == DownloadedType.Type.ANIME) {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Anime/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Anime/${downloadedType.title}/${downloadedType.chapter}"
             )
         } else {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Novel/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Novel/${downloadedType.title}/${downloadedType.chapter}"
             )
         }
 
@@ -196,22 +196,22 @@ class DownloadsManager(private val context: Context) {
         val directory = if (downloadedType.type == DownloadedType.Type.MANGA) {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Manga/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Manga/${downloadedType.title}/${downloadedType.chapter}"
             )
         } else if (downloadedType.type == DownloadedType.Type.ANIME) {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Anime/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Anime/${downloadedType.title}/${downloadedType.chapter}"
             )
         } else {
             File(
                 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Novel/${downloadedType.title}/${downloadedType.chapter}"
+                "Dantotsu/Novel/${downloadedType.title}/${downloadedType.chapter}"
             )
         }
         val destination = File(
             context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/${downloadedType.title}/${downloadedType.chapter}"
+            "Dantotsu/${downloadedType.title}/${downloadedType.chapter}"
         )
         if (directory.exists()) {
             val copied = directory.copyRecursively(destination, true)
@@ -227,11 +227,11 @@ class DownloadsManager(private val context: Context) {
 
     fun purgeDownloads(type: DownloadedType.Type) {
         val directory = if (type == DownloadedType.Type.MANGA) {
-            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "ShiroIN/Manga")
+            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "Dantotsu/Manga")
         } else if (type == DownloadedType.Type.ANIME) {
-            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "ShiroIN/Anime")
+            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "Dantotsu/Anime")
         } else {
-            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "ShiroIN/Novel")
+            File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "Dantotsu/Novel")
         }
         if (directory.exists()) {
             val deleted = directory.deleteRecursively()
@@ -249,9 +249,9 @@ class DownloadsManager(private val context: Context) {
     }
 
     companion object {
-        const val novelLocation = "ShiroIN/Novel"
-        const val mangaLocation = "ShiroIN/Manga"
-        const val animeLocation = "ShiroIN/Anime"
+        const val novelLocation = "Dantotsu/Novel"
+        const val mangaLocation = "Dantotsu/Manga"
+        const val animeLocation = "Dantotsu/Anime"
 
         fun getDirectory(
             context: Context,

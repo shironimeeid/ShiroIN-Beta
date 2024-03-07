@@ -1,4 +1,4 @@
-package ani.shiroin.home
+package ani.dantotsu.home
 
 import android.content.Intent
 import android.os.Handler
@@ -16,23 +16,23 @@ import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.MediaPageTransformer
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.currContext
-import ani.shiroin.databinding.ItemMangaPageBinding
-import ani.shiroin.loadImage
-import ani.shiroin.media.GenreActivity
-import ani.shiroin.media.MediaAdaptor
-import ani.shiroin.media.SearchActivity
-import ani.shiroin.px
-import ani.shiroin.setSafeOnClickListener
-import ani.shiroin.setSlideIn
-import ani.shiroin.setSlideUp
-import ani.shiroin.settings.SettingsDialogFragment
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.statusBarHeight
+import ani.dantotsu.MediaPageTransformer
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.ItemMangaPageBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.media.GenreActivity
+import ani.dantotsu.media.MediaAdaptor
+import ani.dantotsu.media.SearchActivity
+import ani.dantotsu.px
+import ani.dantotsu.setSafeOnClickListener
+import ani.dantotsu.setSlideIn
+import ani.dantotsu.setSlideUp
+import ani.dantotsu.settings.SettingsDialogFragment
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.statusBarHeight
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.textfield.TextInputLayout
 

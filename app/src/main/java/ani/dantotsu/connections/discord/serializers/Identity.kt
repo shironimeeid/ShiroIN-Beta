@@ -1,4 +1,4 @@
-package ani.shiroin.connections.discord.serializers
+package ani.dantotsu.connections.discord.serializers
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

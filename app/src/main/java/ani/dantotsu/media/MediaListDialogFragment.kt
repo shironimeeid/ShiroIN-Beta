@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,11 +11,11 @@ import android.widget.ArrayAdapter
 import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
-import ani.shiroin.*
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.anilist.api.FuzzyDate
-import ani.shiroin.connections.mal.MAL
-import ani.shiroin.databinding.BottomSheetMediaListBinding
+import ani.dantotsu.*
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.api.FuzzyDate
+import ani.dantotsu.connections.mal.MAL
+import ani.dantotsu.databinding.BottomSheetMediaListBinding
 import com.google.android.material.materialswitch.MaterialSwitch
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

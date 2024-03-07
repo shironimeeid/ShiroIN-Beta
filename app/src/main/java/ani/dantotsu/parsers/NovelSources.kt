@@ -1,11 +1,11 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.util.Log
-import ani.shiroin.Lazier
-import ani.shiroin.parsers.novel.DynamicNovelParser
-import ani.shiroin.parsers.novel.NovelExtension
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.Lazier
+import ani.dantotsu.parsers.novel.DynamicNovelParser
+import ani.dantotsu.parsers.novel.NovelExtension
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.first
 

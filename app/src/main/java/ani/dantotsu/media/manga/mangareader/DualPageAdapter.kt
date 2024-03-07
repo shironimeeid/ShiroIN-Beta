@@ -1,9 +1,9 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.graphics.Bitmap
 import android.view.View
-import ani.shiroin.media.manga.MangaChapter
-import ani.shiroin.settings.CurrentReaderSettings.Directions.LEFT_TO_RIGHT
+import ani.dantotsu.media.manga.MangaChapter
+import ani.dantotsu.settings.CurrentReaderSettings.Directions.LEFT_TO_RIGHT
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 
 class DualPageAdapter(

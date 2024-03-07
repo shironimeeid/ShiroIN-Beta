@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,11 +10,11 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
-import ani.shiroin.*
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.mal.MAL
-import ani.shiroin.databinding.BottomSheetMediaListSmallBinding
-import ani.shiroin.others.getSerialized
+import ani.dantotsu.*
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.mal.MAL
+import ani.dantotsu.databinding.BottomSheetMediaListSmallBinding
+import ani.dantotsu.others.getSerialized
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,7 +1,7 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 import android.graphics.drawable.Drawable
-import ani.shiroin.parsers.NovelInterface
+import ani.dantotsu.parsers.NovelInterface
 
 sealed class NovelExtension {
     abstract val name: String

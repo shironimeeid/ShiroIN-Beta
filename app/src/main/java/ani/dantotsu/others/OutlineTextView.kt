@@ -1,11 +1,11 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
-import ani.shiroin.R
+import ani.dantotsu.R
 
 class OutlineTextView : AppCompatTextView {
 

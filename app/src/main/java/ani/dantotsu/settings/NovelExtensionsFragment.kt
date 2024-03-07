@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.app.NotificationManager
 import android.content.Context
@@ -12,16 +12,16 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.databinding.FragmentNovelExtensionsBinding
-import ani.shiroin.parsers.novel.NovelExtension
-import ani.shiroin.parsers.novel.NovelExtensionManager
-import ani.shiroin.settings.paging.NovelExtensionAdapter
-import ani.shiroin.settings.paging.NovelExtensionsViewModel
-import ani.shiroin.settings.paging.NovelExtensionsViewModelFactory
-import ani.shiroin.settings.paging.OnNovelInstallClickListener
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.databinding.FragmentNovelExtensionsBinding
+import ani.dantotsu.parsers.novel.NovelExtension
+import ani.dantotsu.parsers.novel.NovelExtensionManager
+import ani.dantotsu.settings.paging.NovelExtensionAdapter
+import ani.dantotsu.settings.paging.NovelExtensionsViewModel
+import ani.dantotsu.settings.paging.NovelExtensionsViewModelFactory
+import ani.dantotsu.settings.paging.OnNovelInstallClickListener
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.data.notification.Notifications
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

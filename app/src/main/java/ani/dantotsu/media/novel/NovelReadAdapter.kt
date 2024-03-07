@@ -1,4 +1,4 @@
-package ani.shiroin.media.novel
+package ani.dantotsu.media.novel
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH
 import android.view.inputmethod.InputMethodManager
 import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemNovelHeaderBinding
-import ani.shiroin.media.Media
-import ani.shiroin.parsers.NovelReadSources
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemNovelHeaderBinding
+import ani.dantotsu.media.Media
+import ani.dantotsu.parsers.NovelReadSources
 
 class NovelReadAdapter(
     private val media: Media,

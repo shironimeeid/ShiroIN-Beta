@@ -1,7 +1,7 @@
-package ani.shiroin.settings.saving.internal
+package ani.dantotsu.settings.saving.internal
 
 import android.content.SharedPreferences
-import ani.shiroin.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefManager
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

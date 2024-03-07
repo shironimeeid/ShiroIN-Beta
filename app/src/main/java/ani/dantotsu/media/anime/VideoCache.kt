@@ -1,4 +1,4 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
 import android.content.Context
 import androidx.media3.common.util.UnstableApi

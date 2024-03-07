@@ -1,7 +1,7 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.FileUrl
-import ani.shiroin.media.manga.MangaNameAdapter
+import ani.dantotsu.FileUrl
+import ani.dantotsu.media.manga.MangaNameAdapter
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.model.SChapter

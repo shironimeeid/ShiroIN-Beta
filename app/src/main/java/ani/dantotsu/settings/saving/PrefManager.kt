@@ -1,12 +1,12 @@
-package ani.shiroin.settings.saving
+package ani.dantotsu.settings.saving
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Base64
-import ani.shiroin.settings.saving.internal.Compat
-import ani.shiroin.settings.saving.internal.Location
-import ani.shiroin.settings.saving.internal.PreferencePackager
-import ani.shiroin.snackString
+import ani.dantotsu.settings.saving.internal.Compat
+import ani.dantotsu.settings.saving.internal.Location
+import ani.dantotsu.settings.saving.internal.PreferencePackager
+import ani.dantotsu.snackString
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.ObjectInputStream

@@ -1,9 +1,9 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
-import ani.shiroin.parsers.Book
-import ani.shiroin.parsers.NovelInterface
-import ani.shiroin.parsers.NovelParser
-import ani.shiroin.parsers.ShowResponse
+import ani.dantotsu.parsers.Book
+import ani.dantotsu.parsers.NovelInterface
+import ani.dantotsu.parsers.NovelParser
+import ani.dantotsu.parsers.ShowResponse
 import eu.kanade.tachiyomi.network.NetworkHelper
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

@@ -1,4 +1,4 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import com.lagradost.nicehttp.Requests
 

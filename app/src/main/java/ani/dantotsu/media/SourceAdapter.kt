@@ -1,12 +1,12 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.databinding.ItemCharacterBinding
-import ani.shiroin.loadImage
-import ani.shiroin.parsers.ShowResponse
+import ani.dantotsu.databinding.ItemCharacterBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.parsers.ShowResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

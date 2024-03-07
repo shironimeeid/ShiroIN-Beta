@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.updateLayoutParams
-import ani.shiroin.R
-import ani.shiroin.databinding.ActivityUserInterfaceSettingsBinding
-import ani.shiroin.initActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.statusBarHeight
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ActivityUserInterfaceSettingsBinding
+import ani.dantotsu.initActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.statusBarHeight
+import ani.dantotsu.themes.ThemeManager
 import com.google.android.material.snackbar.Snackbar
 
 class UserInterfaceSettingsActivity : AppCompatActivity() {

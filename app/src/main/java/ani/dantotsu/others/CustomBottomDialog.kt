@@ -1,12 +1,12 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.databinding.BottomSheetCustomBinding
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.databinding.BottomSheetCustomBinding
 
 open class CustomBottomDialog : BottomSheetDialogFragment() {
     private var _binding: BottomSheetCustomBinding? = null

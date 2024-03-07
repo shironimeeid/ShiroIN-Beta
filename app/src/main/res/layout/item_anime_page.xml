@@ -282,7 +282,7 @@
             android:layout_height="48dp"
             android:layout_gravity="center" />
 
-        <ani.shiroin.FadingEdgeRecyclerView
+        <ani.dantotsu.FadingEdgeRecyclerView
             android:id="@+id/animeUpdatedRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="250dp"

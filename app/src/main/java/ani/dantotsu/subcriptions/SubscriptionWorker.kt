@@ -1,4 +1,4 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.content.Context
 import androidx.work.Constraints
@@ -8,10 +8,10 @@ import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequest
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.subcriptions.Subscription.Companion.defaultTime
-import ani.shiroin.subcriptions.Subscription.Companion.timeMinutes
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.subcriptions.Subscription.Companion.defaultTime
+import ani.dantotsu.subcriptions.Subscription.Companion.timeMinutes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.util.concurrent.TimeUnit

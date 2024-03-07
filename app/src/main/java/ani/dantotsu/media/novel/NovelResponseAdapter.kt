@@ -1,4 +1,4 @@
-package ani.shiroin.media.novel
+package ani.dantotsu.media.novel
 
 import android.util.Log
 import android.util.TypedValue
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemNovelResponseBinding
-import ani.shiroin.parsers.ShowResponse
-import ani.shiroin.setAnimation
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemNovelResponseBinding
+import ani.dantotsu.parsers.ShowResponse
+import ani.dantotsu.setAnimation
+import ani.dantotsu.snackString
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
 

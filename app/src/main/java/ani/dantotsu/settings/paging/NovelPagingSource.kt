@@ -1,4 +1,4 @@
-package ani.shiroin.settings.paging
+package ani.dantotsu.settings.paging
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -16,13 +16,13 @@ import androidx.paging.PagingState
 import androidx.paging.cachedIn
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemExtensionAllBinding
-import ani.shiroin.others.LanguageMapper
-import ani.shiroin.parsers.novel.NovelExtension
-import ani.shiroin.parsers.novel.NovelExtensionManager
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemExtensionAllBinding
+import ani.dantotsu.others.LanguageMapper
+import ani.dantotsu.parsers.novel.NovelExtension
+import ani.dantotsu.parsers.novel.NovelExtensionManager
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.bumptech.glide.Glide
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.graphics.Bitmap
 import android.graphics.Color

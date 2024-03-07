@@ -1,10 +1,10 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 
 import android.content.Context
-import ani.shiroin.logger
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.logger
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import eu.kanade.tachiyomi.extension.ExtensionUpdateNotifier
 import eu.kanade.tachiyomi.extension.anime.model.AnimeExtension
 import eu.kanade.tachiyomi.extension.anime.model.AnimeLoadResult

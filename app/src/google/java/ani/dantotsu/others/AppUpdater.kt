@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -14,8 +14,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.content.getSystemService
 import androidx.fragment.app.FragmentActivity
-import ani.shiroin.*
-import ani.shiroin.settings.saving.PrefManager
+import ani.dantotsu.*
+import ani.dantotsu.settings.saving.PrefManager
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
 import kotlinx.coroutines.Dispatchers
@@ -78,7 +78,7 @@ object AppUpdater {
                     setPositiveButton(currContext()!!.getString(R.string.lets_go)) {
                         MainScope().launch(Dispatchers.IO) {
                             try {
-                                client.get("https://api.github.com/repos/shironimeeid/ShiroIN-Beta/releases/tags/v$version")
+                                client.get("https://api.github.com/repos/shironimeeid/Dantotsu-Beta/releases/tags/v$version")
                                     .parsed<GithubResponse>().assets?.find {
                                         it.browserDownloadURL.endsWith("apk")
                                     }?.browserDownloadURL.apply {
@@ -135,10 +135,10 @@ object AppUpdater {
 
         val request = DownloadManager.Request(Uri.parse(url))
             .setMimeType("application/vnd.android.package-archive")
-            .setTitle("Downloading ShiroIN $version")
+            .setTitle("Downloading Dantotsu $version")
             .setDestinationInExternalPublicDir(
                 Environment.DIRECTORY_DOWNLOADS,
-                "ShiroIN $version.apk"
+                "Dantotsu $version.apk"
             )
             .setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or DownloadManager.Request.NETWORK_MOBILE)
             .setAllowedOverRoaming(true)

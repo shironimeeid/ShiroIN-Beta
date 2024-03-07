@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.os.Bundle
 import android.view.View
@@ -12,16 +12,16 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.GridLayoutManager
-import ani.shiroin.EmptyAdapter
-import ani.shiroin.R
-import ani.shiroin.Refresh
-import ani.shiroin.databinding.ActivityStudioBinding
-import ani.shiroin.initActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.others.getSerialized
-import ani.shiroin.px
-import ani.shiroin.statusBarHeight
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.EmptyAdapter
+import ani.dantotsu.R
+import ani.dantotsu.Refresh
+import ani.dantotsu.databinding.ActivityStudioBinding
+import ani.dantotsu.initActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.others.getSerialized
+import ani.dantotsu.px
+import ani.dantotsu.statusBarHeight
+import ani.dantotsu.themes.ThemeManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

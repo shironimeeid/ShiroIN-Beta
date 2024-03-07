@@ -2,7 +2,7 @@ package eu.kanade.tachiyomi.extension.manga
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import ani.shiroin.snackString
+import ani.dantotsu.snackString
 import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.tachiyomi.extension.InstallStep
 import eu.kanade.tachiyomi.extension.manga.api.MangaExtensionGithubApi

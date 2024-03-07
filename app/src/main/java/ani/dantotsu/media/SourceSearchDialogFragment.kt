@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.content.Context
 import android.os.Bundle
@@ -12,17 +12,17 @@ import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.databinding.BottomSheetSourceSearchBinding
-import ani.shiroin.media.anime.AnimeSourceAdapter
-import ani.shiroin.media.manga.MangaSourceAdapter
-import ani.shiroin.navBarHeight
-import ani.shiroin.parsers.AnimeSources
-import ani.shiroin.parsers.HAnimeSources
-import ani.shiroin.parsers.HMangaSources
-import ani.shiroin.parsers.MangaSources
-import ani.shiroin.px
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.databinding.BottomSheetSourceSearchBinding
+import ani.dantotsu.media.anime.AnimeSourceAdapter
+import ani.dantotsu.media.manga.MangaSourceAdapter
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.parsers.AnimeSources
+import ani.dantotsu.parsers.HAnimeSources
+import ani.dantotsu.parsers.HMangaSources
+import ani.dantotsu.parsers.MangaSources
+import ani.dantotsu.px
+import ani.dantotsu.tryWithSuspend
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

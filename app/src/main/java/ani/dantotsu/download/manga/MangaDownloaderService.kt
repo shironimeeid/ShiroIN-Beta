@@ -1,4 +1,4 @@
-package ani.shiroin.download.manga
+package ani.dantotsu.download.manga
 
 import android.Manifest
 import android.app.Service
@@ -17,19 +17,19 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.media.manga.ImageData
-import ani.shiroin.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_FAILED
-import ani.shiroin.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_FINISHED
-import ani.shiroin.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_PROGRESS
-import ani.shiroin.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_STARTED
-import ani.shiroin.media.manga.MangaReadFragment.Companion.EXTRA_CHAPTER_NUMBER
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.manga.ImageData
+import ani.dantotsu.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_FAILED
+import ani.dantotsu.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_FINISHED
+import ani.dantotsu.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_PROGRESS
+import ani.dantotsu.media.manga.MangaReadFragment.Companion.ACTION_DOWNLOAD_STARTED
+import ani.dantotsu.media.manga.MangaReadFragment.Companion.EXTRA_CHAPTER_NUMBER
+import ani.dantotsu.snackString
 import com.google.gson.GsonBuilder
 import com.google.gson.InstanceCreator
 import eu.kanade.tachiyomi.data.notification.Notifications.CHANNEL_DOWNLOADER_PROGRESS
@@ -264,7 +264,7 @@ class MangaDownloaderService : Service() {
             // Define the directory within the private external storage space
             val directory = File(
                 this.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Manga/$title/$chapter"
+                "Dantotsu/Manga/$title/$chapter"
             )
 
             if (!directory.exists()) {
@@ -291,7 +291,7 @@ class MangaDownloaderService : Service() {
         GlobalScope.launch(Dispatchers.IO) {
             val directory = File(
                 getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Manga/${task.title}"
+                "Dantotsu/Manga/${task.title}"
             )
             if (!directory.exists()) directory.mkdirs()
 

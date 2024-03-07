@@ -1,4 +1,4 @@
-package ani.shiroin.media.user
+package ani.dantotsu.media.user
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import ani.shiroin.databinding.FragmentListBinding
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaAdaptor
-import ani.shiroin.media.OtherDetailsViewModel
+import ani.dantotsu.databinding.FragmentListBinding
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaAdaptor
+import ani.dantotsu.media.OtherDetailsViewModel
 
 class ListFragment : Fragment() {
     private var _binding: FragmentListBinding? = null

@@ -73,7 +73,7 @@
             android:clipToPadding="false"
             android:orientation="vertical">
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -617,9 +617,9 @@
                     app:showText="false"
                     app:thumbTint="@color/button_switch_track" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -1186,7 +1186,7 @@
                     app:showText="false"
                     app:thumbTint="@color/button_switch_track"
                     tools:ignore="VisualLintButtonSize" />
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
             <TextView
                 android:layout_width="match_parent"

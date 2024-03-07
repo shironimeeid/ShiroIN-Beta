@@ -1,11 +1,11 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.net.Uri
 import android.os.Environment
-import ani.shiroin.currContext
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.media.anime.AnimeNameAdapter
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.currContext
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.media.anime.AnimeNameAdapter
+import ani.dantotsu.tryWithSuspend
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.animesource.model.SEpisode
 import eu.kanade.tachiyomi.animesource.model.SEpisodeImpl
@@ -132,7 +132,7 @@ class OfflineVideoExtractor(val videoServer: VideoServer) : VideoExtractor() {
         currContext()?.let {
             DownloadsManager.getDirectory(
                 it,
-                ani.shiroin.download.DownloadedType.Type.ANIME,
+                ani.dantotsu.download.DownloadedType.Type.ANIME,
                 title,
                 episode
             ).listFiles()?.forEach {

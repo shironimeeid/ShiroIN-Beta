@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -10,11 +10,11 @@ import android.widget.ProgressBar
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.GesturesListener
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.databinding.ItemProgressbarBinding
-import ani.shiroin.snackString
+import ani.dantotsu.GesturesListener
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.ItemProgressbarBinding
+import ani.dantotsu.snackString
 
 class ProgressAdapter(private val horizontal: Boolean = true, searched: Boolean) :
     RecyclerView.Adapter<ProgressAdapter.ProgressViewHolder>() {

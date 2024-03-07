@@ -1,8 +1,8 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 import android.os.FileObserver
 import android.util.Log
-import ani.shiroin.parsers.novel.FileObserver.fileObserver
+import ani.dantotsu.parsers.novel.FileObserver.fileObserver
 import java.io.File
 
 

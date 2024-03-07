@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.graphics.Color
 import android.text.Spannable

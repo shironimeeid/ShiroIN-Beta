@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -21,13 +21,13 @@ import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.*
-import ani.shiroin.databinding.ItemMediaCompactBinding
-import ani.shiroin.databinding.ItemMediaLargeBinding
-import ani.shiroin.databinding.ItemMediaPageBinding
-import ani.shiroin.databinding.ItemMediaPageSmallBinding
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.*
+import ani.dantotsu.databinding.ItemMediaCompactBinding
+import ani.dantotsu.databinding.ItemMediaLargeBinding
+import ani.dantotsu.databinding.ItemMediaPageBinding
+import ani.dantotsu.databinding.ItemMediaPageSmallBinding
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.model.GlideUrl

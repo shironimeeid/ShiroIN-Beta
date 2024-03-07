@@ -1,4 +1,4 @@
-package ani.shiroin.connections.anilist.api
+package ani.dantotsu.connections.anilist.api
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -12,7 +12,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("Viewer")
-            val user: ani.shiroin.connections.anilist.api.User?
+            val user: ani.dantotsu.connections.anilist.api.User?
         )
     }
 
@@ -24,7 +24,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("Media")
-            val media: ani.shiroin.connections.anilist.api.Media?
+            val media: ani.dantotsu.connections.anilist.api.Media?
         )
     }
 
@@ -36,14 +36,14 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("Page")
-            val page: ani.shiroin.connections.anilist.api.Page?
+            val page: ani.dantotsu.connections.anilist.api.Page?
         )
     }
 //    data class AiringSchedule(
 //        val data : Data?
 //    ){
 //        data class Data(
-//            val AiringSchedule: ani.shiroin.connections.anilist.api.AiringSchedule?
+//            val AiringSchedule: ani.dantotsu.connections.anilist.api.AiringSchedule?
 //        )
 //    }
 
@@ -56,7 +56,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("Character")
-            val character: ani.shiroin.connections.anilist.api.Character?
+            val character: ani.dantotsu.connections.anilist.api.Character?
         )
     }
 
@@ -68,7 +68,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("Studio")
-            val studio: ani.shiroin.connections.anilist.api.Studio?
+            val studio: ani.dantotsu.connections.anilist.api.Studio?
         )
     }
 
@@ -89,7 +89,7 @@ class Query {
 //        val data: Data?
 //    ){
 //        data class Data(
-//            val MediaList: ani.shiroin.connections.anilist.api.MediaList?
+//            val MediaList: ani.dantotsu.connections.anilist.api.MediaList?
 //        )
 //    }
 
@@ -101,7 +101,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("MediaListCollection")
-            val mediaListCollection: ani.shiroin.connections.anilist.api.MediaListCollection?
+            val mediaListCollection: ani.dantotsu.connections.anilist.api.MediaListCollection?
         )
     }
 
@@ -112,9 +112,9 @@ class Query {
     ) {
         @Serializable
         data class Data(
-            @SerialName("current") val current: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("planned") val planned: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("repeating") val repeating: ani.shiroin.connections.anilist.api.MediaListCollection?,
+            @SerialName("current") val current: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("planned") val planned: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("repeating") val repeating: ani.dantotsu.connections.anilist.api.MediaListCollection?,
         )
     }
 
@@ -125,17 +125,17 @@ class Query {
     ) {
         @Serializable
         data class Data(
-            @SerialName("currentAnime") val currentAnime: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("repeatingAnime") val repeatingAnime: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("favoriteAnime") val favoriteAnime: ani.shiroin.connections.anilist.api.User?,
-            @SerialName("plannedAnime") val plannedAnime: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("currentManga") val currentManga: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("repeatingManga") val repeatingManga: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("favoriteManga") val favoriteManga: ani.shiroin.connections.anilist.api.User?,
-            @SerialName("plannedManga") val plannedManga: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("recommendationQuery") val recommendationQuery: ani.shiroin.connections.anilist.api.Page?,
-            @SerialName("recommendationPlannedQueryAnime") val recommendationPlannedQueryAnime: ani.shiroin.connections.anilist.api.MediaListCollection?,
-            @SerialName("recommendationPlannedQueryManga") val recommendationPlannedQueryManga: ani.shiroin.connections.anilist.api.MediaListCollection?,
+            @SerialName("currentAnime") val currentAnime: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("repeatingAnime") val repeatingAnime: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("favoriteAnime") val favoriteAnime: ani.dantotsu.connections.anilist.api.User?,
+            @SerialName("plannedAnime") val plannedAnime: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("currentManga") val currentManga: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("repeatingManga") val repeatingManga: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("favoriteManga") val favoriteManga: ani.dantotsu.connections.anilist.api.User?,
+            @SerialName("plannedManga") val plannedManga: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("recommendationQuery") val recommendationQuery: ani.dantotsu.connections.anilist.api.Page?,
+            @SerialName("recommendationPlannedQueryAnime") val recommendationPlannedQueryAnime: ani.dantotsu.connections.anilist.api.MediaListCollection?,
+            @SerialName("recommendationPlannedQueryManga") val recommendationPlannedQueryManga: ani.dantotsu.connections.anilist.api.MediaListCollection?,
         )
     }
 
@@ -171,7 +171,7 @@ class Query {
         @Serializable
         data class Data(
             @SerialName("User")
-            val user: ani.shiroin.connections.anilist.api.User?
+            val user: ani.dantotsu.connections.anilist.api.User?
         )
     }
 }

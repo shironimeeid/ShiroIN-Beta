@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.annotation.SuppressLint
 import android.app.NotificationManager
@@ -19,17 +19,17 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.currContext
-import ani.shiroin.databinding.FragmentNovelExtensionsBinding
-import ani.shiroin.others.LanguageMapper
-import ani.shiroin.parsers.NovelSources
-import ani.shiroin.parsers.novel.NovelExtension
-import ani.shiroin.parsers.novel.NovelExtensionManager
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.FragmentNovelExtensionsBinding
+import ani.dantotsu.others.LanguageMapper
+import ani.dantotsu.parsers.NovelSources
+import ani.dantotsu.parsers.novel.NovelExtension
+import ani.dantotsu.parsers.novel.NovelExtensionManager
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.data.notification.Notifications
 import kotlinx.coroutines.launch
 import rx.android.schedulers.AndroidSchedulers

@@ -1,11 +1,11 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.Lazier
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.media.anime.Episode
-import ani.shiroin.media.manga.MangaChapter
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.Lazier
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.anime.Episode
+import ani.dantotsu.media.manga.MangaChapter
+import ani.dantotsu.tryWithSuspend
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.source.model.SManga
 

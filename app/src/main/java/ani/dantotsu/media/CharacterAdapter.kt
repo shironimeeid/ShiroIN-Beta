@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,9 +10,9 @@ import androidx.core.content.ContextCompat
 import androidx.core.util.Pair
 import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.databinding.ItemCharacterBinding
-import ani.shiroin.loadImage
-import ani.shiroin.setAnimation
+import ani.dantotsu.databinding.ItemCharacterBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.setAnimation
 import java.io.Serializable
 
 class CharacterAdapter(

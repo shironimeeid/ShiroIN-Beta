@@ -1,14 +1,14 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.graphics.Bitmap
-import ani.shiroin.connections.anilist.api.FuzzyDate
-import ani.shiroin.connections.anilist.api.MediaEdge
-import ani.shiroin.connections.anilist.api.MediaList
-import ani.shiroin.connections.anilist.api.MediaType
-import ani.shiroin.media.anime.Anime
-import ani.shiroin.media.manga.Manga
+import ani.dantotsu.connections.anilist.api.FuzzyDate
+import ani.dantotsu.connections.anilist.api.MediaEdge
+import ani.dantotsu.connections.anilist.api.MediaList
+import ani.dantotsu.connections.anilist.api.MediaType
+import ani.dantotsu.media.anime.Anime
+import ani.dantotsu.media.manga.Manga
 import java.io.Serializable
-import ani.shiroin.connections.anilist.api.Media as ApiMedia
+import ani.dantotsu.connections.anilist.api.Media as ApiMedia
 
 data class Media(
     val anime: Anime? = null,

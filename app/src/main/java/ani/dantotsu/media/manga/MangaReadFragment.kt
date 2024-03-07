@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -28,29 +28,29 @@ import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.*
-import ani.shiroin.databinding.FragmentAnimeWatchBinding
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.download.manga.MangaDownloaderService
-import ani.shiroin.download.manga.MangaServiceDataSingleton
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaDetailsActivity
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.media.manga.mangareader.ChapterLoaderDialog
-import ani.shiroin.others.LanguageMapper
-import ani.shiroin.parsers.DynamicMangaParser
-import ani.shiroin.parsers.HMangaSources
-import ani.shiroin.parsers.MangaParser
-import ani.shiroin.parsers.MangaSources
-import ani.shiroin.settings.extensionprefs.MangaSourcePreferencesFragment
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.subcriptions.Notifications
-import ani.shiroin.subcriptions.Notifications.Group.MANGA_GROUP
-import ani.shiroin.subcriptions.Subscription.Companion.getChannelId
-import ani.shiroin.subcriptions.SubscriptionHelper
-import ani.shiroin.subcriptions.SubscriptionHelper.Companion.saveSubscription
+import ani.dantotsu.*
+import ani.dantotsu.databinding.FragmentAnimeWatchBinding
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.download.manga.MangaDownloaderService
+import ani.dantotsu.download.manga.MangaServiceDataSingleton
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaDetailsActivity
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.media.manga.mangareader.ChapterLoaderDialog
+import ani.dantotsu.others.LanguageMapper
+import ani.dantotsu.parsers.DynamicMangaParser
+import ani.dantotsu.parsers.HMangaSources
+import ani.dantotsu.parsers.MangaParser
+import ani.dantotsu.parsers.MangaSources
+import ani.dantotsu.settings.extensionprefs.MangaSourcePreferencesFragment
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.subcriptions.Notifications
+import ani.dantotsu.subcriptions.Notifications.Group.MANGA_GROUP
+import ani.dantotsu.subcriptions.Subscription.Companion.getChannelId
+import ani.dantotsu.subcriptions.SubscriptionHelper
+import ani.dantotsu.subcriptions.SubscriptionHelper.Companion.saveSubscription
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.navigationrail.NavigationRailView
 import eu.kanade.tachiyomi.extension.manga.model.MangaExtension
@@ -613,10 +613,10 @@ open class MangaReadFragment : Fragment(), ScanlatorSelectionListener {
     }
 
     companion object {
-        const val ACTION_DOWNLOAD_STARTED = "ani.shiroin.ACTION_DOWNLOAD_STARTED"
-        const val ACTION_DOWNLOAD_FINISHED = "ani.shiroin.ACTION_DOWNLOAD_FINISHED"
-        const val ACTION_DOWNLOAD_FAILED = "ani.shiroin.ACTION_DOWNLOAD_FAILED"
-        const val ACTION_DOWNLOAD_PROGRESS = "ani.shiroin.ACTION_DOWNLOAD_PROGRESS"
+        const val ACTION_DOWNLOAD_STARTED = "ani.dantotsu.ACTION_DOWNLOAD_STARTED"
+        const val ACTION_DOWNLOAD_FINISHED = "ani.dantotsu.ACTION_DOWNLOAD_FINISHED"
+        const val ACTION_DOWNLOAD_FAILED = "ani.dantotsu.ACTION_DOWNLOAD_FAILED"
+        const val ACTION_DOWNLOAD_PROGRESS = "ani.dantotsu.ACTION_DOWNLOAD_PROGRESS"
         const val EXTRA_CHAPTER_NUMBER = "extra_chapter_number"
     }
 }

@@ -1,22 +1,22 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.content.Context
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.media.Media
-import ani.shiroin.media.Selected
-import ani.shiroin.media.manga.MangaNameAdapter
-import ani.shiroin.parsers.AnimeParser
-import ani.shiroin.parsers.AnimeSources
-import ani.shiroin.parsers.Episode
-import ani.shiroin.parsers.HAnimeSources
-import ani.shiroin.parsers.HMangaSources
-import ani.shiroin.parsers.MangaChapter
-import ani.shiroin.parsers.MangaParser
-import ani.shiroin.parsers.MangaSources
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.Selected
+import ani.dantotsu.media.manga.MangaNameAdapter
+import ani.dantotsu.parsers.AnimeParser
+import ani.dantotsu.parsers.AnimeSources
+import ani.dantotsu.parsers.Episode
+import ani.dantotsu.parsers.HAnimeSources
+import ani.dantotsu.parsers.HMangaSources
+import ani.dantotsu.parsers.MangaChapter
+import ani.dantotsu.parsers.MangaParser
+import ani.dantotsu.parsers.MangaSources
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.tryWithSuspend
 import kotlinx.coroutines.withTimeoutOrNull
 
 class SubscriptionHelper {

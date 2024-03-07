@@ -55,7 +55,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="${icon_placeholder_round}"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ShiroIN"
+        android:theme="@style/Theme.Dantotsu"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
         <receiver
@@ -127,7 +127,7 @@
         <activity
             android:name=".media.MediaDetailsActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.ShiroIN.NeverCutout" />
+            android:theme="@style/Theme.Dantotsu.NeverCutout" />
         <activity android:name=".media.CharacterDetailsActivity" />
         <activity android:name=".home.NoInternet" />
         <activity
@@ -145,7 +145,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Anilist Login for ShiroIN">
+            <intent-filter android:label="Anilist Login for Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -153,7 +153,7 @@
 
                 <data
                     android:host="anilist"
-                    android:scheme="shiroin" />
+                    android:scheme="Dantotsu" />
             </intent-filter>
         </activity>
         <activity
@@ -162,7 +162,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Myanimelist Login for ShiroIN">
+            <intent-filter android:label="Myanimelist Login for Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -170,7 +170,7 @@
 
                 <data
                     android:host="mal"
-                    android:scheme="shiroin" />
+                    android:scheme="Dantotsu" />
             </intent-filter>
         </activity>
         <activity
@@ -179,13 +179,13 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Discord Login for ShiroIN">
+            <intent-filter android:label="Discord Login for Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="shiroin" />
+                <data android:scheme="Dantotsu" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
                 <data android:host="discord.shiro.com" />
@@ -197,16 +197,16 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Discord Login for ShiroIN">
+            <intent-filter android:label="Discord Login for Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="shiroin" />
+                <data android:scheme="Dantotsu" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="discord.shiroin.com" />
+                <data android:host="discord.Dantotsu.com" />
             </intent-filter>
         </activity>
         <activity
@@ -215,7 +215,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="@string/read_on_shiroin">
+            <intent-filter android:label="@string/read_on_Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -227,7 +227,7 @@
                 <data android:host="myanimelist.net" />
                 <data android:pathPrefix="/manga" />
             </intent-filter>
-            <intent-filter android:label="@string/watch_on_shiroin">
+            <intent-filter android:label="@string/watch_on_Dantotsu">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -269,7 +269,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="Aani.shiroin.ACTION_ALARM" />
+                <action android:name="Aani.dantotsu.ACTION_ALARM" />
             </intent-filter>
         </receiver>
 

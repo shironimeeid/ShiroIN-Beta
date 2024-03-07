@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.annotation.SuppressLint
 import android.content.Context

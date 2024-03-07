@@ -1,9 +1,9 @@
-package ani.shiroin.others.webview
+package ani.dantotsu.others.webview
 
 import android.graphics.Bitmap
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import ani.shiroin.FileUrl
+import ani.dantotsu.FileUrl
 
 class CloudFlare(override val location: FileUrl) : WebViewBottomDialog() {
     val cfTag = "cf_clearance"

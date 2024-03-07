@@ -1,4 +1,4 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 import android.content.Context
 import android.content.pm.PackageInfo
@@ -6,10 +6,10 @@ import android.content.pm.PackageManager.GET_SIGNATURES
 import android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES
 import android.os.Build
 import android.util.Log
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.logger
-import ani.shiroin.parsers.NovelInterface
-import ani.shiroin.snackString
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.logger
+import ani.dantotsu.parsers.NovelInterface
+import ani.dantotsu.snackString
 import dalvik.system.PathClassLoader
 import eu.kanade.tachiyomi.util.lang.Hash
 import uy.kohesive.injekt.Injekt

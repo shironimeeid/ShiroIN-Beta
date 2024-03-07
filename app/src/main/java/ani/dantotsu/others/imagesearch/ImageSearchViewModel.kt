@@ -1,8 +1,8 @@
-package ani.shiroin.others.imagesearch
+package ani.dantotsu.others.imagesearch
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import ani.shiroin.client
+import ani.dantotsu.client
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement

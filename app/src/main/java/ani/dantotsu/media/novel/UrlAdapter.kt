@@ -1,4 +1,4 @@
-package ani.shiroin.media.novel
+package ani.dantotsu.media.novel
 
 import android.annotation.SuppressLint
 import android.view.HapticFeedbackConstants
@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.FileUrl
-import ani.shiroin.copyToClipboard
-import ani.shiroin.databinding.ItemUrlBinding
-import ani.shiroin.parsers.Book
-import ani.shiroin.setSafeOnClickListener
-import ani.shiroin.tryWith
+import ani.dantotsu.FileUrl
+import ani.dantotsu.copyToClipboard
+import ani.dantotsu.databinding.ItemUrlBinding
+import ani.dantotsu.parsers.Book
+import ani.dantotsu.setSafeOnClickListener
+import ani.dantotsu.tryWith
 
 class UrlAdapter(
     private val urls: List<FileUrl>,

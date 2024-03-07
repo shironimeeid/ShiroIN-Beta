@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,10 +13,10 @@ import androidx.core.view.GestureDetectorCompat
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.*
-import ani.shiroin.media.manga.MangaCache
-import ani.shiroin.media.manga.MangaChapter
-import ani.shiroin.settings.CurrentReaderSettings
+import ani.dantotsu.*
+import ani.dantotsu.media.manga.MangaCache
+import ani.dantotsu.media.manga.MangaChapter
+import ani.dantotsu.settings.CurrentReaderSettings
 import com.alexvasilkov.gestures.views.GestureFrameLayout
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy

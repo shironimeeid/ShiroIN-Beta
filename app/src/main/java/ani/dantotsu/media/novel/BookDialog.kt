@@ -1,4 +1,4 @@
-package ani.shiroin.media.novel
+package ani.dantotsu.media.novel
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.databinding.BottomSheetBookBinding
-import ani.shiroin.loadImage
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.others.getSerialized
-import ani.shiroin.parsers.ShowResponse
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.databinding.BottomSheetBookBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.others.getSerialized
+import ani.dantotsu.parsers.ShowResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

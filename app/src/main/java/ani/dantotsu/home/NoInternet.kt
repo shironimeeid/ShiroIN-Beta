@@ -1,4 +1,4 @@
-package ani.shiroin.home
+package ani.dantotsu.home
 
 import android.graphics.drawable.GradientDrawable
 import android.os.Build
@@ -16,19 +16,19 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import ani.shiroin.R
-import ani.shiroin.ZoomOutPageTransformer
-import ani.shiroin.databinding.ActivityNoInternetBinding
-import ani.shiroin.download.anime.OfflineAnimeFragment
-import ani.shiroin.download.manga.OfflineMangaFragment
-import ani.shiroin.initActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.offline.OfflineFragment
-import ani.shiroin.selectedOption
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.ZoomOutPageTransformer
+import ani.dantotsu.databinding.ActivityNoInternetBinding
+import ani.dantotsu.download.anime.OfflineAnimeFragment
+import ani.dantotsu.download.manga.OfflineMangaFragment
+import ani.dantotsu.initActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.offline.OfflineFragment
+import ani.dantotsu.selectedOption
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
+import ani.dantotsu.themes.ThemeManager
 import nl.joery.animatedbottombar.AnimatedBottomBar
 
 class NoInternet : AppCompatActivity() {
@@ -75,7 +75,7 @@ class NoInternet : AppCompatActivity() {
             }
         }
         val navbar = binding.includedNavbar.navbar
-        ani.shiroin.bottomBar = navbar
+        ani.dantotsu.bottomBar = navbar
         navbar.visibility = View.VISIBLE
         val mainViewPager = binding.viewpager
         mainViewPager.isUserInputEnabled = false

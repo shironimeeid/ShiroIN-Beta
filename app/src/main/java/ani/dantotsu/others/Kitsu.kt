@@ -1,11 +1,11 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
-import ani.shiroin.FileUrl
-import ani.shiroin.client
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.media.anime.Episode
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.FileUrl
+import ani.dantotsu.client
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.anime.Episode
+import ani.dantotsu.tryWithSuspend
 import com.google.gson.Gson
 import com.lagradost.nicehttp.NiceResponse
 import kotlinx.serialization.SerialName

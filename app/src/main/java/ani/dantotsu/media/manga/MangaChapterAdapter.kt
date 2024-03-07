@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
 import android.app.AlertDialog
 import android.util.TypedValue
@@ -9,13 +9,13 @@ import android.view.animation.LinearInterpolator
 import android.widget.NumberPicker
 import androidx.lifecycle.coroutineScope
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.connections.updateProgress
-import ani.shiroin.currContext
-import ani.shiroin.databinding.ItemChapterListBinding
-import ani.shiroin.databinding.ItemEpisodeCompactBinding
-import ani.shiroin.media.Media
-import ani.shiroin.setAnimation
+import ani.dantotsu.R
+import ani.dantotsu.connections.updateProgress
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.ItemChapterListBinding
+import ani.dantotsu.databinding.ItemEpisodeCompactBinding
+import ani.dantotsu.media.Media
+import ani.dantotsu.setAnimation
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

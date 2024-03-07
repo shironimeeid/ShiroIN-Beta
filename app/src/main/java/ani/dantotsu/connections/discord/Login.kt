@@ -1,4 +1,4 @@
-package ani.shiroin.connections.discord
+package ani.dantotsu.connections.discord
 
 import android.annotation.SuppressLint
 import android.app.Application.getProcessName
@@ -9,10 +9,10 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import ani.shiroin.R
-import ani.shiroin.connections.discord.Discord.saveToken
-import ani.shiroin.startMainActivity
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.connections.discord.Discord.saveToken
+import ani.dantotsu.startMainActivity
+import ani.dantotsu.themes.ThemeManager
 
 class Login : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.Drawable
@@ -17,14 +17,14 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.HORIZONTAL
-import ani.shiroin.App.Companion.context
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.databinding.ItemChipBinding
-import ani.shiroin.databinding.ItemSearchHeaderBinding
-import ani.shiroin.openLinkInBrowser
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.App.Companion.context
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.databinding.ItemChipBinding
+import ani.dantotsu.databinding.ItemSearchHeaderBinding
+import ani.dantotsu.openLinkInBrowser
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.google.android.material.checkbox.MaterialCheckBox.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

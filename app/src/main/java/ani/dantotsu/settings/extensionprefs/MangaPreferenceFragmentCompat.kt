@@ -1,4 +1,4 @@
-package ani.shiroin.settings.extensionprefs
+package ani.dantotsu.settings.extensionprefs
 
 import android.content.Context
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.app.DownloadManager
 import android.content.ComponentName
@@ -10,15 +10,15 @@ import android.os.Bundle
 import android.os.Environment
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import ani.shiroin.FileUrl
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.defaultHeaders
-import ani.shiroin.media.anime.Episode
-import ani.shiroin.parsers.Book
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.toast
+import ani.dantotsu.FileUrl
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.defaultHeaders
+import ani.dantotsu.media.anime.Episode
+import ani.dantotsu.parsers.Book
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -43,7 +43,7 @@ object Download {
             direct = File(parentDirectory)
             if (!direct.exists()) direct.mkdirs()
         } else {
-            direct = File("storage/emulated/0/${Environment.DIRECTORY_DOWNLOADS}/ShiroIN/")
+            direct = File("storage/emulated/0/${Environment.DIRECTORY_DOWNLOADS}/Dantotsu/")
             if (!direct.exists()) direct.mkdirs()
         }
         return direct
@@ -124,11 +124,11 @@ object Download {
                     if (!direct.exists()) direct.mkdirs()
                     request.setDestinationUri(Uri.fromFile(File("$parentDirectory$fileName")))
                 } else {
-                    val direct = File(Environment.DIRECTORY_DOWNLOADS + "/ShiroIN$folder")
+                    val direct = File(Environment.DIRECTORY_DOWNLOADS + "/Dantotsu$folder")
                     if (!direct.exists()) direct.mkdirs()
                     request.setDestinationInExternalPublicDir(
                         Environment.DIRECTORY_DOWNLOADS,
-                        "/ShiroIN$folder$fileName"
+                        "/Dantotsu$folder$fileName"
                     )
                 }
                 request.setTitle(notif)

@@ -1,4 +1,4 @@
-package ani.shiroin.connections.anilist.api
+package ani.dantotsu.connections.anilist.api
 
 import kotlinx.serialization.SerialName
 import java.io.Serializable

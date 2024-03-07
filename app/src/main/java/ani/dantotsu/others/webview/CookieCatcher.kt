@@ -1,4 +1,4 @@
-package ani.shiroin.others.webview
+package ani.dantotsu.others.webview
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -9,8 +9,8 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import ani.shiroin.R
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.themes.ThemeManager
 import eu.kanade.tachiyomi.network.NetworkHelper
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

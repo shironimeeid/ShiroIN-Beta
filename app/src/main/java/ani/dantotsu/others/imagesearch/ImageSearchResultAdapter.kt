@@ -1,11 +1,11 @@
-package ani.shiroin.others.imagesearch
+package ani.dantotsu.others.imagesearch
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemSearchByImageBinding
-import ani.shiroin.loadImage
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemSearchByImageBinding
+import ani.dantotsu.loadImage
 
 class ImageSearchResultAdapter(private val searchResults: List<ImageSearchViewModel.ImageResult>) :
     RecyclerView.Adapter<ImageSearchResultAdapter.SearchResultViewHolder>() {

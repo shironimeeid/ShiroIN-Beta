@@ -1,13 +1,13 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.databinding.ItemQuestionBinding
-import ani.shiroin.others.CustomBottomDialog
-import ani.shiroin.setAnimation
+import ani.dantotsu.databinding.ItemQuestionBinding
+import ani.dantotsu.others.CustomBottomDialog
+import ani.dantotsu.setAnimation
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
 

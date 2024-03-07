@@ -1,9 +1,9 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.media.SourceAdapter
-import ani.shiroin.media.SourceSearchDialogFragment
-import ani.shiroin.parsers.ShowResponse
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.media.SourceAdapter
+import ani.dantotsu.media.SourceSearchDialogFragment
+import ani.dantotsu.parsers.ShowResponse
 import kotlinx.coroutines.CoroutineScope
 
 class AnimeSourceAdapter(

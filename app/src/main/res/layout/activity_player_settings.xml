@@ -73,7 +73,7 @@
             android:clipToPadding="false"
             android:orientation="vertical">
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -152,9 +152,9 @@
                     app:iconPadding="16dp"
                     app:iconSize="24dp" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -399,9 +399,9 @@
                     android:text="@string/sub_color_info"
                     android:textSize="14sp" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -496,9 +496,9 @@
 
                 </com.google.android.material.materialswitch.MaterialSwitch>
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -618,9 +618,9 @@
                     android:text="@string/auto_skip_fillers_info"
                     android:textSize="14sp" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -735,9 +735,9 @@
                     android:text="@string/watch_complete_percentage_info"
                     android:textSize="14sp" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
-            <ani.shiroin.others.Xpandable
+            <ani.dantotsu.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -1012,7 +1012,7 @@
                     android:text="@string/skip_time_info"
                     android:textSize="14sp" />
 
-            </ani.shiroin.others.Xpandable>
+            </ani.dantotsu.others.Xpandable>
 
 
             <TextView

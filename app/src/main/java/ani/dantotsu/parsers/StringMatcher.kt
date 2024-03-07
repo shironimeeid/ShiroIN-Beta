@@ -1,6 +1,6 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.logger
+import ani.dantotsu.logger
 
 class StringMatcher {
     companion object {

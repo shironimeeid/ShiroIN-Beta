@@ -1,12 +1,12 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.app.NotificationManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import ani.shiroin.INCOGNITO_CHANNEL_ID
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.INCOGNITO_CHANNEL_ID
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 
 
 class NotificationClickReceiver : BroadcastReceiver() {

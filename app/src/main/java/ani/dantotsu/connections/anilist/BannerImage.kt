@@ -1,4 +1,4 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
 import java.io.Serializable
 

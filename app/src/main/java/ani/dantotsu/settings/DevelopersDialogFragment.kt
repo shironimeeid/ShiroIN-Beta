@@ -1,12 +1,12 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.databinding.BottomSheetDevelopersBinding
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.databinding.BottomSheetDevelopersBinding
 
 class DevelopersDialogFragment : BottomSheetDialogFragment() {
     private var _binding: BottomSheetDevelopersBinding? = null

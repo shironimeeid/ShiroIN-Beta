@@ -1,14 +1,14 @@
-package ani.shiroin.connections.discord
+package ani.dantotsu.connections.discord
 
 import android.content.Context
 import android.content.Intent
 import android.widget.TextView
-import ani.shiroin.R
-import ani.shiroin.others.CustomBottomDialog
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.toast
-import ani.shiroin.tryWith
+import ani.dantotsu.R
+import ani.dantotsu.others.CustomBottomDialog
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.toast
+import ani.dantotsu.tryWith
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
 import java.io.File
@@ -76,10 +76,10 @@ object Discord {
             RPC(it, Dispatchers.IO).apply {
                 applicationId = application_Id
                 smallImage = RPC.Link(
-                    "ShiroIN",
+                    "Dantotsu",
                     small_Image
                 )
-                buttons.add(RPC.Link("Stream on ShiroIN", "https://github.com/rebelonion/ShiroIN/"))
+                buttons.add(RPC.Link("Stream on Dantotsu", "https://github.com/rebelonion/Dantotsu/"))
             }
         }
     }*/

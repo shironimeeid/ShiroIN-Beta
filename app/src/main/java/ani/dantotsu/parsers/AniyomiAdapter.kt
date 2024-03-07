@@ -1,4 +1,4 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.content.ContentResolver
 import android.content.ContentValues
@@ -9,13 +9,13 @@ import android.net.Uri
 import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
-import ani.shiroin.FileUrl
-import ani.shiroin.currContext
-import ani.shiroin.logger
-import ani.shiroin.media.anime.AnimeNameAdapter
-import ani.shiroin.media.manga.ImageData
-import ani.shiroin.media.manga.MangaCache
-import ani.shiroin.snackString
+import ani.dantotsu.FileUrl
+import ani.dantotsu.currContext
+import ani.dantotsu.logger
+import ani.dantotsu.media.anime.AnimeNameAdapter
+import ani.dantotsu.media.manga.ImageData
+import ani.dantotsu.media.manga.MangaCache
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.animesource.AnimeCatalogueSource
 import eu.kanade.tachiyomi.animesource.ConfigurableAnimeSource
 import eu.kanade.tachiyomi.animesource.model.AnimesPage
@@ -456,7 +456,7 @@ class DynamicMangaParser(extension: MangaExtension.Installed) : MangaParser() {
                 val bitmap = BitmapFactory.decodeStream(inputStream)
 
                 inputStream.close()
-                ani.shiroin.media.manga.saveImage(
+                ani.dantotsu.media.manga.saveImage(
                     bitmap,
                     context.contentResolver,
                     page.imageUrl!!,
@@ -519,7 +519,7 @@ class DynamicMangaParser(extension: MangaExtension.Installed) : MangaParser() {
                     put(MediaStore.MediaColumns.MIME_TYPE, "image/${format.name.lowercase()}")
                     put(
                         MediaStore.MediaColumns.RELATIVE_PATH,
-                        "${Environment.DIRECTORY_DOWNLOADS}/ShiroIN/Anime"
+                        "${Environment.DIRECTORY_DOWNLOADS}/Dantotsu/Anime"
                     )
                 }
 
@@ -535,7 +535,7 @@ class DynamicMangaParser(extension: MangaExtension.Installed) : MangaParser() {
                 }
             } else {
                 val directory =
-                    File("${Environment.getExternalStorageDirectory()}${File.separator}ShiroIN${File.separator}Anime")
+                    File("${Environment.getExternalStorageDirectory()}${File.separator}Dantotsu${File.separator}Anime")
                 if (!directory.exists()) {
                     directory.mkdirs()
                 }
@@ -679,7 +679,7 @@ class VideoServerPassthrough(val videoServer: VideoServer) : VideoExtractor() {
         }
     }
 
-    private fun AniVideoToSaiVideo(aniVideo: Video): ani.shiroin.parsers.Video {
+    private fun AniVideoToSaiVideo(aniVideo: Video): ani.dantotsu.parsers.Video {
         // Find the number value from the .quality string
         val number = Regex("""\d+""").find(aniVideo.quality)?.value?.toInt() ?: 0
 

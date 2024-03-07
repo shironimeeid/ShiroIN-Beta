@@ -1,4 +1,4 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
 import android.content.Context
 import android.os.Bundle
@@ -8,7 +8,7 @@ import androidx.mediarouter.app.MediaRouteChooserDialogFragment
 import androidx.mediarouter.app.MediaRouteControllerDialog
 import androidx.mediarouter.app.MediaRouteControllerDialogFragment
 import androidx.mediarouter.app.MediaRouteDialogFactory
-import ani.shiroin.R
+import ani.dantotsu.R
 
 class CustomCastProvider(context: Context) : MediaRouteActionProvider(context) {
     init {

@@ -1,6 +1,6 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
-import ani.shiroin.logger
+import ani.dantotsu.logger
 import java.util.regex.Pattern
 import kotlin.math.pow
 

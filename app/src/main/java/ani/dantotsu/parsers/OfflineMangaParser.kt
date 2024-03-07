@@ -1,10 +1,10 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.os.Environment
-import ani.shiroin.currContext
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.logger
-import ani.shiroin.media.manga.MangaNameAdapter
+import ani.dantotsu.currContext
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.logger
+import ani.dantotsu.media.manga.MangaNameAdapter
 import eu.kanade.tachiyomi.source.model.SChapter
 import eu.kanade.tachiyomi.source.model.SManga
 import me.xdrop.fuzzywuzzy.FuzzySearch
@@ -25,7 +25,7 @@ class OfflineMangaParser : MangaParser() {
     ): List<MangaChapter> {
         val directory = File(
             currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/Manga/$mangaLink"
+            "Dantotsu/Manga/$mangaLink"
         )
         //get all of the folder names and add them to the list
         val chapters = mutableListOf<MangaChapter>()
@@ -52,7 +52,7 @@ class OfflineMangaParser : MangaParser() {
     override suspend fun loadImages(chapterLink: String, sChapter: SChapter): List<MangaImage> {
         val directory = File(
             currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/Manga/$chapterLink"
+            "Dantotsu/Manga/$chapterLink"
         )
         val images = mutableListOf<MangaImage>()
         val imageNumberRegex = Regex("""(\d+)\.jpg$""")

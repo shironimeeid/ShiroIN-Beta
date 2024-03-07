@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.animation.ObjectAnimator
 import android.content.Context
@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.core.content.withStyledAttributes
 import androidx.core.view.children
-import ani.shiroin.R
+import ani.dantotsu.R
 
 
 class Xpandable @JvmOverloads constructor(

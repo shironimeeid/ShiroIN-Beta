@@ -1,9 +1,9 @@
 @file:Suppress("unused")
 
-package ani.shiroin.connections.anilist.api
+package ani.dantotsu.connections.anilist.api
 
-import ani.shiroin.R
-import ani.shiroin.currContext
+import ani.dantotsu.R
+import ani.dantotsu.currContext
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

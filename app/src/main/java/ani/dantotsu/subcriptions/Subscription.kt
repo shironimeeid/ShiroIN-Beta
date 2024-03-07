@@ -1,15 +1,15 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.annotation.SuppressLint
 import android.app.Notification
 import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import ani.shiroin.*
-import ani.shiroin.parsers.Episode
-import ani.shiroin.parsers.MangaChapter
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.*
+import ani.dantotsu.parsers.Episode
+import ani.dantotsu.parsers.MangaChapter
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

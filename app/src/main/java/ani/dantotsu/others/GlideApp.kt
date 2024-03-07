@@ -1,8 +1,8 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.annotation.SuppressLint
 import android.content.Context
-import ani.shiroin.okHttpClient
+import ani.dantotsu.okHttpClient
 import com.bumptech.glide.Glide
 import com.bumptech.glide.GlideBuilder
 import com.bumptech.glide.Registry
@@ -15,7 +15,7 @@ import java.io.InputStream
 
 
 @GlideModule
-class shiroinGlideApp : AppGlideModule() {
+class DantotsuGlideApp : AppGlideModule() {
     @SuppressLint("CheckResult")
     override fun applyOptions(context: Context, builder: GlideBuilder) {
         super.applyOptions(context, builder)

@@ -1,13 +1,13 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.R
-import ani.shiroin.databinding.BottomSheetDevelopersBinding
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.R
+import ani.dantotsu.databinding.BottomSheetDevelopersBinding
 
 class ForksDialogFragment : BottomSheetDialogFragment() {
     private var _binding: BottomSheetDevelopersBinding? = null
@@ -17,8 +17,8 @@ class ForksDialogFragment : BottomSheetDialogFragment() {
         Developer(
             "renn.shiro",
             "https://avatars.githubusercontent.com/u/120251625?v=4",
-            "ShiroIN",
-            "https://github.com/shironimeeid/ShiroIN-Beta"
+            "Dantotsu",
+            "https://github.com/shironimeeid/Dantotsu-Beta"
         ),
     )
 

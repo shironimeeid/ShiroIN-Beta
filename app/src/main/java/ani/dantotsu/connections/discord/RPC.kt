@@ -1,12 +1,12 @@
-package ani.shiroin.connections.discord
+package ani.dantotsu.connections.discord
 
-import ani.shiroin.connections.discord.serializers.Activity
-import ani.shiroin.connections.discord.serializers.Presence
+import ani.dantotsu.connections.discord.serializers.Activity
+import ani.dantotsu.connections.discord.serializers.Presence
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlin.coroutines.CoroutineContext
-import ani.shiroin.client as app
+import ani.dantotsu.client as app
 
 @Suppress("MemberVisibilityCanBePrivate")
 open class RPC(val token: String, val coroutineContext: CoroutineContext) {

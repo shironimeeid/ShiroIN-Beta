@@ -1,4 +1,4 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -12,15 +12,15 @@ import androidx.lifecycle.coroutineScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.DownloadIndex
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.*
-import ani.shiroin.connections.updateProgress
-import ani.shiroin.databinding.ItemEpisodeCompactBinding
-import ani.shiroin.databinding.ItemEpisodeGridBinding
-import ani.shiroin.databinding.ItemEpisodeListBinding
-import ani.shiroin.download.anime.AnimeDownloaderService
-import ani.shiroin.download.video.Helper
-import ani.shiroin.media.Media
-import ani.shiroin.settings.saving.PrefManager
+import ani.dantotsu.*
+import ani.dantotsu.connections.updateProgress
+import ani.dantotsu.databinding.ItemEpisodeCompactBinding
+import ani.dantotsu.databinding.ItemEpisodeGridBinding
+import ani.dantotsu.databinding.ItemEpisodeListBinding
+import ani.dantotsu.download.anime.AnimeDownloaderService
+import ani.dantotsu.download.video.Helper
+import ani.dantotsu.media.Media
+import ani.dantotsu.settings.saving.PrefManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
 import kotlinx.coroutines.delay

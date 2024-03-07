@@ -1,7 +1,7 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
-import ani.shiroin.parsers.MangaChapter
-import ani.shiroin.parsers.MangaImage
+import ani.dantotsu.parsers.MangaChapter
+import ani.dantotsu.parsers.MangaImage
 import eu.kanade.tachiyomi.source.model.SChapter
 import java.io.Serializable
 import kotlin.math.floor

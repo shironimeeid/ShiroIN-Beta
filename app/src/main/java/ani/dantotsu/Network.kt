@@ -1,10 +1,10 @@
-package ani.shiroin
+package ani.dantotsu
 
 import android.content.Context
 import android.os.Build
 import androidx.fragment.app.FragmentActivity
-import ani.shiroin.others.webview.CloudFlare
-import ani.shiroin.others.webview.WebViewBottomDialog
+import ani.dantotsu.others.webview.CloudFlare
+import ani.dantotsu.others.webview.WebViewBottomDialog
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import com.lagradost.nicehttp.addGenericDns

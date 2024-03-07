@@ -1,4 +1,4 @@
-package ani.shiroin.download.anime
+package ani.dantotsu.download.anime
 
 
 import android.annotation.SuppressLint
@@ -11,9 +11,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
-import ani.shiroin.R
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.R
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 
 
 class OfflineAnimeAdapter(

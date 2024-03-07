@@ -1,4 +1,4 @@
-package ani.shiroin.widgets
+package ani.dantotsu.widgets
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -13,7 +13,7 @@ import android.graphics.drawable.GradientDrawable
 import android.net.Uri
 import android.widget.RemoteViews
 import androidx.core.content.res.ResourcesCompat
-import ani.shiroin.R
+import ani.dantotsu.R
 
 /**
  * Implementation of App Widget functionality.

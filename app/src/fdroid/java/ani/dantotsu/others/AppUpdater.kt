@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import androidx.fragment.app.FragmentActivity
 

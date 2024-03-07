@@ -1,4 +1,4 @@
-package ani.shiroin
+package ani.dantotsu
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -6,17 +6,17 @@ import android.content.Context
 import android.os.Bundle
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
-import ani.shiroin.aniyomi.anime.custom.AppModule
-import ani.shiroin.aniyomi.anime.custom.PreferenceModule
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.others.DisabledReports
-import ani.shiroin.parsers.AnimeSources
-import ani.shiroin.parsers.MangaSources
-import ani.shiroin.parsers.NovelSources
-import ani.shiroin.parsers.novel.NovelExtensionManager
-import ani.shiroin.settings.SettingsActivity
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.aniyomi.anime.custom.AppModule
+import ani.dantotsu.aniyomi.anime.custom.PreferenceModule
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.others.DisabledReports
+import ani.dantotsu.parsers.AnimeSources
+import ani.dantotsu.parsers.MangaSources
+import ani.dantotsu.parsers.NovelSources
+import ani.dantotsu.parsers.novel.NovelExtensionManager
+import ani.dantotsu.settings.SettingsActivity
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.google.android.material.color.DynamicColors
 import eu.kanade.tachiyomi.data.notification.Notifications
 import eu.kanade.tachiyomi.extension.anime.AnimeExtensionManager

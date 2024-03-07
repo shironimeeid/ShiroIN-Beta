@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,14 +11,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.*
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.anilist.AnilistSearch
-import ani.shiroin.connections.anilist.SearchResults
-import ani.shiroin.databinding.ActivitySearchBinding
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.*
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.AnilistSearch
+import ani.dantotsu.connections.anilist.SearchResults
+import ani.dantotsu.databinding.ActivitySearchBinding
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.themes.ThemeManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.*

@@ -1,4 +1,4 @@
-package ani.shiroin.download.manga
+package ani.dantotsu.download.manga
 
 import android.content.Intent
 import android.net.Uri
@@ -22,23 +22,23 @@ import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.core.view.marginBottom
 import androidx.fragment.app.Fragment
-import ani.shiroin.R
-import ani.shiroin.bottomBar
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.currActivity
-import ani.shiroin.currContext
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.initActivity
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaDetailsActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.setSafeOnClickListener
-import ani.shiroin.settings.SettingsDialogFragment
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.bottomBar
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.currActivity
+import ani.dantotsu.currContext
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.initActivity
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaDetailsActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.setSafeOnClickListener
+import ani.dantotsu.settings.SettingsDialogFragment
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.textfield.TextInputLayout
@@ -295,7 +295,7 @@ class OfflineMangaFragment : Fragment(), OfflineMangaSearchListener {
         }
         val directory = File(
             currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/$type/${downloadedType.title}"
+            "Dantotsu/$type/${downloadedType.title}"
         )
         //load media.json and convert to media class with gson
         return try {
@@ -323,7 +323,7 @@ class OfflineMangaFragment : Fragment(), OfflineMangaSearchListener {
         }
         val directory = File(
             currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/$type/${downloadedType.title}"
+            "Dantotsu/$type/${downloadedType.title}"
         )
         //load media.json and convert to media class with gson
         try {

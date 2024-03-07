@@ -1,7 +1,7 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
-import ani.shiroin.connections.anilist.Anilist.executeQuery
-import ani.shiroin.connections.anilist.api.FuzzyDate
+import ani.dantotsu.connections.anilist.Anilist.executeQuery
+import ani.dantotsu.connections.anilist.api.FuzzyDate
 import kotlinx.serialization.json.JsonObject
 
 class AnilistMutations {

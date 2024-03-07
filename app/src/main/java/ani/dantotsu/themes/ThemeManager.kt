@@ -1,4 +1,4 @@
-package ani.shiroin.themes
+package ani.dantotsu.themes
 
 import android.app.Activity
 import android.content.Context
@@ -6,9 +6,9 @@ import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.view.Window
 import android.view.WindowManager
-import ani.shiroin.R
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.R
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.color.DynamicColorsOptions
 
@@ -40,16 +40,16 @@ class ThemeManager(private val context: Activity) {
         val theme: String = PrefManager.getVal(PrefName.Theme)
 
         val themeToApply = when (theme) {
-            "BLUE" -> if (useOLED) R.style.Theme_shiroin_BlueOLED else R.style.Theme_shiroin_Blue
-            "GREEN" -> if (useOLED) R.style.Theme_shiroin_GreenOLED else R.style.Theme_shiroin_Green
-            "PURPLE" -> if (useOLED) R.style.Theme_shiroin_PurpleOLED else R.style.Theme_shiroin_Purple
-            "PINK" -> if (useOLED) R.style.Theme_shiroin_PinkOLED else R.style.Theme_shiroin_Pink
-            "SAIKOU" -> if (useOLED) R.style.Theme_shiroin_SaikouOLED else R.style.Theme_shiroin_Saikou
-            "RED" -> if (useOLED) R.style.Theme_shiroin_RedOLED else R.style.Theme_shiroin_Red
-            "LAVENDER" -> if (useOLED) R.style.Theme_shiroin_LavenderOLED else R.style.Theme_shiroin_Lavender
-            "OCEAN" -> if (useOLED) R.style.Theme_shiroin_OceanOLED else R.style.Theme_shiroin_Ocean
-            "MONOCHROME (BETA)" -> if (useOLED) R.style.Theme_shiroin_MonochromeOLED else R.style.Theme_shiroin_Monochrome
-            else -> if (useOLED) R.style.Theme_shiroin_PurpleOLED else R.style.Theme_shiroin_Purple
+            "BLUE" -> if (useOLED) R.style.Theme_Dantotsu_BlueOLED else R.style.Theme_Dantotsu_Blue
+            "GREEN" -> if (useOLED) R.style.Theme_Dantotsu_GreenOLED else R.style.Theme_Dantotsu_Green
+            "PURPLE" -> if (useOLED) R.style.Theme_Dantotsu_PurpleOLED else R.style.Theme_Dantotsu_Purple
+            "PINK" -> if (useOLED) R.style.Theme_Dantotsu_PinkOLED else R.style.Theme_Dantotsu_Pink
+            "SAIKOU" -> if (useOLED) R.style.Theme_Dantotsu_SaikouOLED else R.style.Theme_Dantotsu_Saikou
+            "RED" -> if (useOLED) R.style.Theme_Dantotsu_RedOLED else R.style.Theme_Dantotsu_Red
+            "LAVENDER" -> if (useOLED) R.style.Theme_Dantotsu_LavenderOLED else R.style.Theme_Dantotsu_Lavender
+            "OCEAN" -> if (useOLED) R.style.Theme_Dantotsu_OceanOLED else R.style.Theme_Dantotsu_Ocean
+            "MONOCHROME (BETA)" -> if (useOLED) R.style.Theme_Dantotsu_MonochromeOLED else R.style.Theme_Dantotsu_Monochrome
+            else -> if (useOLED) R.style.Theme_Dantotsu_PurpleOLED else R.style.Theme_Dantotsu_Purple
         }
 
         val window = context.window

@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern

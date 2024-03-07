@@ -1,7 +1,7 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.FileUrl
-import ani.shiroin.media.Media
+import ani.dantotsu.FileUrl
+import ani.dantotsu.media.Media
 
 abstract class NovelParser : BaseParser() {
 

@@ -1,12 +1,12 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
 import android.app.Activity
 import android.net.Uri
 import android.os.Bundle
 import androidx.core.os.bundleOf
-import ani.shiroin.loadMedia
-import ani.shiroin.startMainActivity
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.loadMedia
+import ani.dantotsu.startMainActivity
+import ani.dantotsu.themes.ThemeManager
 
 class UrlMedia : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {

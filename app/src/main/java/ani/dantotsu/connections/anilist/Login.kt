@@ -1,14 +1,14 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import ani.shiroin.logError
-import ani.shiroin.logger
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.startMainActivity
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.logError
+import ani.dantotsu.logger
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.startMainActivity
+import ani.dantotsu.themes.ThemeManager
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package ani.shiroin.media.novel
+package ani.dantotsu.media.novel
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -21,16 +21,16 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.databinding.FragmentAnimeWatchBinding
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.download.novel.NovelDownloaderService
-import ani.shiroin.download.novel.NovelServiceDataSingleton
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.media.novel.novelreader.NovelReaderActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.parsers.ShowResponse
+import ani.dantotsu.databinding.FragmentAnimeWatchBinding
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.download.novel.NovelDownloaderService
+import ani.dantotsu.download.novel.NovelServiceDataSingleton
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.media.novel.novelreader.NovelReaderActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.parsers.ShowResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -289,10 +289,10 @@ class NovelReadFragment : Fragment(),
     }
 
     companion object {
-        const val ACTION_DOWNLOAD_STARTED = "ani.shiroin.ACTION_DOWNLOAD_STARTED"
-        const val ACTION_DOWNLOAD_FINISHED = "ani.shiroin.ACTION_DOWNLOAD_FINISHED"
-        const val ACTION_DOWNLOAD_FAILED = "ani.shiroin.ACTION_DOWNLOAD_FAILED"
-        const val ACTION_DOWNLOAD_PROGRESS = "ani.shiroin.ACTION_DOWNLOAD_PROGRESS"
+        const val ACTION_DOWNLOAD_STARTED = "ani.dantotsu.ACTION_DOWNLOAD_STARTED"
+        const val ACTION_DOWNLOAD_FINISHED = "ani.dantotsu.ACTION_DOWNLOAD_FINISHED"
+        const val ACTION_DOWNLOAD_FAILED = "ani.dantotsu.ACTION_DOWNLOAD_FAILED"
+        const val ACTION_DOWNLOAD_PROGRESS = "ani.dantotsu.ACTION_DOWNLOAD_PROGRESS"
         const val EXTRA_NOVEL_LINK = "extra_novel_link"
     }
 }

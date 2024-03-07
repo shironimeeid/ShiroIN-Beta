@@ -1,4 +1,4 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import java.util.Timer
 import java.util.TimerTask

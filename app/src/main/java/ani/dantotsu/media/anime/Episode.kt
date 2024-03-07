@@ -1,7 +1,7 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
-import ani.shiroin.FileUrl
-import ani.shiroin.parsers.VideoExtractor
+import ani.dantotsu.FileUrl
+import ani.dantotsu.parsers.VideoExtractor
 import java.io.Serializable
 
 data class Episode(

@@ -1,18 +1,18 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.net.Uri
 import android.util.Log
 import androidx.browser.customtabs.CustomTabsIntent
-import ani.shiroin.R
-import ani.shiroin.client
-import ani.shiroin.currContext
-import ani.shiroin.openLinkInBrowser
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.toast
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.R
+import ani.dantotsu.client
+import ani.dantotsu.currContext
+import ani.dantotsu.openLinkInBrowser
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.toast
+import ani.dantotsu.tryWithSuspend
 import java.util.Calendar
 
 object Anilist {

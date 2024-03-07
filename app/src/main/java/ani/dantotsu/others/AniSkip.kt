@@ -1,7 +1,7 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
-import ani.shiroin.client
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.client
+import ani.dantotsu.tryWithSuspend
 import kotlinx.serialization.Serializable
 import java.net.URLEncoder
 

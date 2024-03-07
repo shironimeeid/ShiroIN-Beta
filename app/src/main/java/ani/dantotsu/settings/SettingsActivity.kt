@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -28,44 +28,44 @@ import androidx.documentfile.provider.DocumentFile
 import androidx.lifecycle.lifecycleScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.DownloadService
-import ani.shiroin.BuildConfig
-import ani.shiroin.R
-import ani.shiroin.Refresh
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.discord.Discord
-import ani.shiroin.connections.mal.MAL
-import ani.shiroin.copyToClipboard
-import ani.shiroin.currContext
-import ani.shiroin.databinding.ActivitySettingsBinding
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.download.video.ExoplayerDownloadService
-import ani.shiroin.downloadsPermission
-import ani.shiroin.initActivity
-import ani.shiroin.loadImage
-import ani.shiroin.logger
-import ani.shiroin.navBarHeight
-import ani.shiroin.openLinkInBrowser
-import ani.shiroin.others.AppUpdater
-import ani.shiroin.others.CustomBottomDialog
-import ani.shiroin.pop
-import ani.shiroin.savePrefsToDownloads
-import ani.shiroin.setSafeOnClickListener
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.settings.saving.internal.Location
-import ani.shiroin.settings.saving.internal.PreferenceKeystore
-import ani.shiroin.settings.saving.internal.PreferencePackager
-import ani.shiroin.snackString
-import ani.shiroin.startMainActivity
-import ani.shiroin.statusBarHeight
-import ani.shiroin.subcriptions.Notifications
-import ani.shiroin.subcriptions.Notifications.Companion.openSettings
-import ani.shiroin.subcriptions.Subscription.Companion.defaultTime
-import ani.shiroin.subcriptions.Subscription.Companion.startSubscription
-import ani.shiroin.subcriptions.Subscription.Companion.timeMinutes
-import ani.shiroin.themes.ThemeManager
-import ani.shiroin.toast
+import ani.dantotsu.BuildConfig
+import ani.dantotsu.R
+import ani.dantotsu.Refresh
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.discord.Discord
+import ani.dantotsu.connections.mal.MAL
+import ani.dantotsu.copyToClipboard
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.ActivitySettingsBinding
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.download.video.ExoplayerDownloadService
+import ani.dantotsu.downloadsPermission
+import ani.dantotsu.initActivity
+import ani.dantotsu.loadImage
+import ani.dantotsu.logger
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.openLinkInBrowser
+import ani.dantotsu.others.AppUpdater
+import ani.dantotsu.others.CustomBottomDialog
+import ani.dantotsu.pop
+import ani.dantotsu.savePrefsToDownloads
+import ani.dantotsu.setSafeOnClickListener
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.settings.saving.internal.Location
+import ani.dantotsu.settings.saving.internal.PreferenceKeystore
+import ani.dantotsu.settings.saving.internal.PreferencePackager
+import ani.dantotsu.snackString
+import ani.dantotsu.startMainActivity
+import ani.dantotsu.statusBarHeight
+import ani.dantotsu.subcriptions.Notifications
+import ani.dantotsu.subcriptions.Notifications.Companion.openSettings
+import ani.dantotsu.subcriptions.Subscription.Companion.defaultTime
+import ani.dantotsu.subcriptions.Subscription.Companion.startSubscription
+import ani.dantotsu.subcriptions.Subscription.Companion.timeMinutes
+import ani.dantotsu.themes.ThemeManager
+import ani.dantotsu.toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import eltos.simpledialogfragment.SimpleDialog
@@ -283,7 +283,7 @@ class SettingsActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListene
                         passwordAlertDialog(true) { password ->
                             if (password != null) {
                                 savePrefsToDownloads(
-                                    "shiroinSettings",
+                                    "DantotsuSettings",
                                     PrefManager.exportAllPrefs(selected),
                                     this@SettingsActivity,
                                     password
@@ -294,7 +294,7 @@ class SettingsActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListene
                         }
                     } else {
                         savePrefsToDownloads(
-                            "shiroinSettings",
+                            "DantotsuSettings",
                             PrefManager.exportAllPrefs(selected),
                             this@SettingsActivity,
                             null
@@ -930,7 +930,7 @@ class SettingsActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListene
     companion object {
         fun getDeviceInfo(): String {
             return """
-                shiroin Version: ${BuildConfig.VERSION_NAME}
+                Dantotsu Version: ${BuildConfig.VERSION_NAME}
                 Device: $BRAND $DEVICE
                 Architecture: ${getArch()}
                 OS Version: $CODENAME $RELEASE ($SDK_INT)

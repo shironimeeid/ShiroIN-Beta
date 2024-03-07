@@ -1,4 +1,4 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.app.NotificationChannel
 import android.app.NotificationChannelGroup
@@ -10,9 +10,9 @@ import android.content.Intent
 import android.os.Build
 import android.provider.Settings
 import androidx.core.app.NotificationCompat
-import ani.shiroin.FileUrl
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.UrlMedia
+import ani.dantotsu.FileUrl
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.UrlMedia
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
 import kotlinx.coroutines.Dispatchers

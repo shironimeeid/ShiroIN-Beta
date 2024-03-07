@@ -1,4 +1,4 @@
-package ani.shiroin.download.manga
+package ani.dantotsu.download.manga
 
 import android.net.Uri
 

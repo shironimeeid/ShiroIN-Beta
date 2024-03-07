@@ -1,4 +1,4 @@
-package ani.shiroin
+package ani.dantotsu
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -46,18 +46,18 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.BuildConfig.APPLICATION_ID
-import ani.shiroin.connections.anilist.Genre
-import ani.shiroin.connections.anilist.api.FuzzyDate
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.databinding.ItemCountDownBinding
-import ani.shiroin.media.Media
-import ani.shiroin.parsers.ShowResponse
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.settings.saving.internal.PreferenceKeystore
-import ani.shiroin.settings.saving.internal.PreferenceKeystore.Companion.generateSalt
-import ani.shiroin.subcriptions.NotificationClickReceiver
+import ani.dantotsu.BuildConfig.APPLICATION_ID
+import ani.dantotsu.connections.anilist.Genre
+import ani.dantotsu.connections.anilist.api.FuzzyDate
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.databinding.ItemCountDownBinding
+import ani.dantotsu.media.Media
+import ani.dantotsu.parsers.ShowResponse
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.settings.saving.internal.PreferenceKeystore
+import ani.dantotsu.settings.saving.internal.PreferenceKeystore.Companion.generateSalt
+import ani.dantotsu.subcriptions.NotificationClickReceiver
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade

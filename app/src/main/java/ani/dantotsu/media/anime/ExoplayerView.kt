@@ -1,4 +1,4 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -62,29 +62,29 @@ import androidx.media3.session.MediaSession
 import androidx.media3.ui.*
 import androidx.media3.ui.CaptionStyleCompat.*
 import androidx.mediarouter.app.MediaRouteButton
-import ani.shiroin.*
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.connections.discord.Discord
-import ani.shiroin.connections.discord.DiscordService
-import ani.shiroin.connections.discord.DiscordServiceRunningSingleton
-import ani.shiroin.connections.discord.RPC
-import ani.shiroin.connections.updateProgress
-import ani.shiroin.databinding.ActivityExoplayerBinding
-import ani.shiroin.download.video.Helper
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.media.SubtitleDownloader
-import ani.shiroin.others.AniSkip
-import ani.shiroin.others.AniSkip.getType
-import ani.shiroin.others.ResettableTimer
-import ani.shiroin.others.getSerialized
-import ani.shiroin.parsers.*
-import ani.shiroin.settings.PlayerSettingsActivity
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.*
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.connections.discord.Discord
+import ani.dantotsu.connections.discord.DiscordService
+import ani.dantotsu.connections.discord.DiscordServiceRunningSingleton
+import ani.dantotsu.connections.discord.RPC
+import ani.dantotsu.connections.updateProgress
+import ani.dantotsu.databinding.ActivityExoplayerBinding
+import ani.dantotsu.download.video.Helper
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.media.SubtitleDownloader
+import ani.dantotsu.others.AniSkip
+import ani.dantotsu.others.AniSkip.getType
+import ani.dantotsu.others.ResettableTimer
+import ani.dantotsu.others.getSerialized
+import ani.dantotsu.parsers.*
+import ani.dantotsu.settings.PlayerSettingsActivity
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.themes.ThemeManager
 import com.bumptech.glide.Glide
 import com.google.android.gms.cast.framework.CastButtonFactory
 import com.google.android.gms.cast.framework.CastContext
@@ -1024,14 +1024,14 @@ class ExoplayerView : AppCompatActivity(), Player.Listener, SessionAvailabilityL
                                 )
                             },
                             smallImage = RPC.Link(
-                                "ShiroIN",
+                                "Dantotsu",
                                 Discord.small_Image
                             ),
                             buttons = mutableListOf(
                                 RPC.Link(getString(R.string.view_anime), media.shareLink ?: ""),
                                 RPC.Link(
-                                    "Stream on ShiroIN",
-                                    "https://github.comshironimeeid/ShiroIN-Beta/"
+                                    "Stream on Dantotsu",
+                                    "https://github.comshironimeeid/Dantotsu-Beta/"
                                 )
                             )
                         )

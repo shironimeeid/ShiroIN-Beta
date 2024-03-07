@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.HORIZONTAL
 import androidx.recyclerview.widget.RecyclerView.VERTICAL
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.databinding.BottomSheetSearchFilterBinding
-import ani.shiroin.databinding.ItemChipBinding
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.databinding.BottomSheetSearchFilterBinding
+import ani.dantotsu.databinding.ItemChipBinding
 import com.google.android.material.chip.Chip
 import java.util.Calendar
 

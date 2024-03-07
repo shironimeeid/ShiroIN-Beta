@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.app.NotificationManager
 import android.content.Context
@@ -11,14 +11,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.databinding.FragmentMangaExtensionsBinding
-import ani.shiroin.settings.paging.MangaExtensionAdapter
-import ani.shiroin.settings.paging.MangaExtensionsViewModel
-import ani.shiroin.settings.paging.MangaExtensionsViewModelFactory
-import ani.shiroin.settings.paging.OnMangaInstallClickListener
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.databinding.FragmentMangaExtensionsBinding
+import ani.dantotsu.settings.paging.MangaExtensionAdapter
+import ani.dantotsu.settings.paging.MangaExtensionsViewModel
+import ani.dantotsu.settings.paging.MangaExtensionsViewModelFactory
+import ani.dantotsu.settings.paging.OnMangaInstallClickListener
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.data.notification.Notifications
 import eu.kanade.tachiyomi.extension.manga.MangaExtensionManager
 import eu.kanade.tachiyomi.extension.manga.model.MangaExtension

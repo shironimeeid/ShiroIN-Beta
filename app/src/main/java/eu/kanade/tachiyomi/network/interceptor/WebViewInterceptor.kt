@@ -58,7 +58,7 @@ abstract class WebViewInterceptor(
 
         if (!WebViewUtil.supportsWebView(context)) {
             launchUI {
-                context.toast("Webview is required for shiroin", Toast.LENGTH_LONG)
+                context.toast("Webview is required for Dantotsu", Toast.LENGTH_LONG)
             }
             return response
         }

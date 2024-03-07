@@ -1,13 +1,13 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.net.Uri
-import ani.shiroin.FileUrl
-import ani.shiroin.R
-import ani.shiroin.asyncMap
-import ani.shiroin.currContext
-import ani.shiroin.others.MalSyncBackup
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.FileUrl
+import ani.dantotsu.R
+import ani.dantotsu.asyncMap
+import ani.dantotsu.currContext
+import ani.dantotsu.others.MalSyncBackup
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.tryWithSuspend
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.animesource.model.SEpisode
 

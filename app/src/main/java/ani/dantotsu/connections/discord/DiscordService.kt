@@ -1,4 +1,4 @@
-package ani.shiroin.connections.discord
+package ani.dantotsu.connections.discord
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -19,13 +19,13 @@ import android.util.Log
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import ani.shiroin.MainActivity
-import ani.shiroin.R
-import ani.shiroin.connections.discord.serializers.Presence
-import ani.shiroin.connections.discord.serializers.User
-import ani.shiroin.isOnline
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.MainActivity
+import ani.dantotsu.R
+import ani.dantotsu.connections.discord.serializers.Presence
+import ani.dantotsu.connections.discord.serializers.User
+import ani.dantotsu.isOnline
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser

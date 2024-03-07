@@ -1,14 +1,14 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.R
-import ani.shiroin.databinding.BottomSheetCurrentReaderSettingsBinding
-import ani.shiroin.settings.CurrentReaderSettings
-import ani.shiroin.settings.CurrentReaderSettings.Directions
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.R
+import ani.dantotsu.databinding.BottomSheetCurrentReaderSettingsBinding
+import ani.dantotsu.settings.CurrentReaderSettings
+import ani.dantotsu.settings.CurrentReaderSettings.Directions
 
 class ReaderSettingsDialogFragment : BottomSheetDialogFragment() {
     private var _binding: BottomSheetCurrentReaderSettingsBinding? = null

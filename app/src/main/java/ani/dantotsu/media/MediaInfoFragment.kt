@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -21,12 +21,12 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.*
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.anilist.GenresViewModel
-import ani.shiroin.databinding.*
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.*
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.GenresViewModel
+import ani.dantotsu.databinding.*
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
 import kotlinx.coroutines.Dispatchers

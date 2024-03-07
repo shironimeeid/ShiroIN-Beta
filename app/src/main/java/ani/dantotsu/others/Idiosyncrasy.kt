@@ -1,6 +1,6 @@
 @file:Suppress("UNCHECKED_CAST", "DEPRECATION")
 
-package ani.shiroin.others
+package ani.dantotsu.others
 
 import android.content.Intent
 import android.os.Build

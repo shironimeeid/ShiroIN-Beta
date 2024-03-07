@@ -1,9 +1,9 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import ani.shiroin.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.Anilist
 import java.text.DateFormat
 import java.util.Date
 

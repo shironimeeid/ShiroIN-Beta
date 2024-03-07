@@ -1,4 +1,4 @@
-package ani.shiroin.others.imagesearch
+package ani.dantotsu.others.imagesearch
 
 import android.content.Intent
 import android.net.Uri
@@ -12,15 +12,15 @@ import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.App.Companion.context
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.databinding.ActivityImageSearchBinding
-import ani.shiroin.initActivity
-import ani.shiroin.media.MediaDetailsActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.themes.ThemeManager
-import ani.shiroin.toast
+import ani.dantotsu.App.Companion.context
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.databinding.ActivityImageSearchBinding
+import ani.dantotsu.initActivity
+import ani.dantotsu.media.MediaDetailsActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.themes.ThemeManager
+import ani.dantotsu.toast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

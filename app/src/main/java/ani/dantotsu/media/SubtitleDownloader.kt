@@ -1,10 +1,10 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.content.Context
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.parsers.SubtitleType
-import ani.shiroin.snackString
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.parsers.SubtitleType
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.network.NetworkHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

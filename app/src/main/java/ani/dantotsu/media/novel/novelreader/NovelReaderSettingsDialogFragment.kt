@@ -1,16 +1,16 @@
-package ani.shiroin.media.novel.novelreader
+package ani.dantotsu.media.novel.novelreader
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.NoPaddingArrayAdapter
-import ani.shiroin.R
-import ani.shiroin.databinding.BottomSheetCurrentNovelReaderSettingsBinding
-import ani.shiroin.settings.CurrentNovelReaderSettings
-import ani.shiroin.settings.CurrentReaderSettings
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.NoPaddingArrayAdapter
+import ani.dantotsu.R
+import ani.dantotsu.databinding.BottomSheetCurrentNovelReaderSettingsBinding
+import ani.dantotsu.settings.CurrentNovelReaderSettings
+import ani.dantotsu.settings.CurrentReaderSettings
 
 class NovelReaderSettingsDialogFragment : BottomSheetDialogFragment() {
     private var _binding: BottomSheetCurrentNovelReaderSettingsBinding? = null

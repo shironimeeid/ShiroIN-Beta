@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -15,12 +15,12 @@ import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.*
-import ani.shiroin.databinding.ActivityExtensionsBinding
-import ani.shiroin.others.LanguageMapper
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.*
+import ani.dantotsu.databinding.ActivityExtensionsBinding
+import ani.dantotsu.others.LanguageMapper
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.themes.ThemeManager
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

@@ -1,4 +1,4 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
 import android.app.Activity
 import android.graphics.Color.TRANSPARENT
@@ -11,13 +11,13 @@ import androidx.fragment.app.activityViewModels
 import androidx.media3.common.util.UnstableApi
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.R
-import ani.shiroin.databinding.BottomSheetSubtitlesBinding
-import ani.shiroin.databinding.ItemSubtitleTextBinding
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.parsers.Subtitle
-import ani.shiroin.settings.saving.PrefManager
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.R
+import ani.dantotsu.databinding.BottomSheetSubtitlesBinding
+import ani.dantotsu.databinding.ItemSubtitleTextBinding
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.parsers.Subtitle
+import ani.dantotsu.settings.saving.PrefManager
 
 class SubtitleDialogFragment : BottomSheetDialogFragment() {
     private var _binding: BottomSheetSubtitlesBinding? = null

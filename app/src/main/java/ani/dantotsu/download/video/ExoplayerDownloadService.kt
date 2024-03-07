@@ -1,4 +1,4 @@
-package ani.shiroin.download.video
+package ani.dantotsu.download.video
 
 import android.app.Notification
 import androidx.media3.common.util.UnstableApi
@@ -8,7 +8,7 @@ import androidx.media3.exoplayer.offline.DownloadNotificationHelper
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.media3.exoplayer.scheduler.PlatformScheduler
 import androidx.media3.exoplayer.scheduler.Scheduler
-import ani.shiroin.R
+import ani.dantotsu.R
 
 @UnstableApi
 class ExoplayerDownloadService :

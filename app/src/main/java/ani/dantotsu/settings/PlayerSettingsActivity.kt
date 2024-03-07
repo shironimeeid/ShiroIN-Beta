@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -11,19 +11,19 @@ import androidx.activity.addCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.addTextChangedListener
-import ani.shiroin.R
-import ani.shiroin.databinding.ActivityPlayerSettingsBinding
-import ani.shiroin.initActivity
-import ani.shiroin.media.Media
-import ani.shiroin.navBarHeight
-import ani.shiroin.others.getSerialized
-import ani.shiroin.parsers.Subtitle
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
-import ani.shiroin.statusBarHeight
-import ani.shiroin.themes.ThemeManager
-import ani.shiroin.toast
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ActivityPlayerSettingsBinding
+import ani.dantotsu.initActivity
+import ani.dantotsu.media.Media
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.others.getSerialized
+import ani.dantotsu.parsers.Subtitle
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
+import ani.dantotsu.statusBarHeight
+import ani.dantotsu.themes.ThemeManager
+import ani.dantotsu.toast
 import com.google.android.material.snackbar.Snackbar
 import kotlin.math.roundToInt
 

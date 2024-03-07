@@ -1,8 +1,8 @@
-package ani.shiroin.connections.mal
+package ani.dantotsu.connections.mal
 
-import ani.shiroin.client
-import ani.shiroin.connections.anilist.api.FuzzyDate
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.client
+import ani.dantotsu.connections.anilist.api.FuzzyDate
+import ani.dantotsu.tryWithSuspend
 import kotlinx.serialization.Serializable
 
 class MALQueries {

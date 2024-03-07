@@ -1,9 +1,9 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.Lazier
-import ani.shiroin.lazyList
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.Lazier
+import ani.dantotsu.lazyList
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import eu.kanade.tachiyomi.extension.anime.model.AnimeExtension
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.first

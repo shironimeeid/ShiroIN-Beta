@@ -1,4 +1,4 @@
-package ani.shiroin.aniyomi.anime.custom
+package ani.dantotsu.aniyomi.anime.custom
 
 
 import android.app.Application
@@ -6,10 +6,10 @@ import androidx.annotation.OptIn
 import androidx.core.content.ContextCompat
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.database.StandaloneDatabaseProvider
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.media.manga.MangaCache
-import ani.shiroin.parsers.novel.NovelExtensionManager
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.media.manga.MangaCache
+import ani.dantotsu.parsers.novel.NovelExtensionManager
 import eu.kanade.domain.base.BasePreferences
 import eu.kanade.domain.source.service.SourcePreferences
 import eu.kanade.tachiyomi.core.preference.AndroidPreferenceStore
@@ -54,7 +54,7 @@ class AppModule(val app: Application) : InjektModule {
         addSingletonFactory { StandaloneDatabaseProvider(app) }
 
         addSingletonFactory<CrashlyticsInterface> {
-            ani.shiroin.connections.crashlytics.CrashlyticsFactory.createCrashlytics()
+            ani.dantotsu.connections.crashlytics.CrashlyticsFactory.createCrashlytics()
         }
 
         addSingletonFactory { MangaCache() }

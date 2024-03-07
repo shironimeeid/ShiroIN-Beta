@@ -1,4 +1,4 @@
-package ani.shiroin
+package ani.dantotsu
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -32,24 +32,24 @@ import androidx.lifecycle.lifecycleScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.anilist.AnilistHomeViewModel
-import ani.shiroin.databinding.ActivityMainBinding
-import ani.shiroin.databinding.SplashScreenBinding
-import ani.shiroin.download.video.Helper
-import ani.shiroin.home.AnimeFragment
-import ani.shiroin.home.HomeFragment
-import ani.shiroin.home.LoginFragment
-import ani.shiroin.home.MangaFragment
-import ani.shiroin.home.NoInternet
-import ani.shiroin.media.MediaDetailsActivity
-import ani.shiroin.others.CustomBottomDialog
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefManager.asLiveBool
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.settings.saving.SharedPreferenceBooleanLiveData
-import ani.shiroin.subcriptions.Subscription.Companion.startSubscription
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.AnilistHomeViewModel
+import ani.dantotsu.databinding.ActivityMainBinding
+import ani.dantotsu.databinding.SplashScreenBinding
+import ani.dantotsu.download.video.Helper
+import ani.dantotsu.home.AnimeFragment
+import ani.dantotsu.home.HomeFragment
+import ani.dantotsu.home.LoginFragment
+import ani.dantotsu.home.MangaFragment
+import ani.dantotsu.home.NoInternet
+import ani.dantotsu.media.MediaDetailsActivity
+import ani.dantotsu.others.CustomBottomDialog
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefManager.asLiveBool
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.settings.saving.SharedPreferenceBooleanLiveData
+import ani.dantotsu.subcriptions.Subscription.Companion.startSubscription
+import ani.dantotsu.themes.ThemeManager
 import eu.kanade.domain.source.service.SourcePreferences
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
@@ -297,7 +297,7 @@ class MainActivity : AppCompatActivity() {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                     if (!(PrefManager.getVal(PrefName.AllowOpeningLinks) as Boolean)) {
                         CustomBottomDialog.newInstance().apply {
-                            title = "Allow ShiroIN to automatically open Anilist & MAL Links?"
+                            title = "Allow Dantotsu to automatically open Anilist & MAL Links?"
                             val md = "Open settings & click +Add Links & select Anilist & Mal urls"
                             addView(TextView(this@MainActivity).apply {
                                 val markWon =

@@ -1,7 +1,7 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
-import ani.shiroin.client
-import ani.shiroin.media.Media
+import ani.dantotsu.client
+import ani.dantotsu.media.Media
 import kotlinx.coroutines.withTimeout
 
 object MalScraper {

@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
 import android.content.ContentResolver
 import android.content.ContentValues
@@ -10,8 +10,8 @@ import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
 import android.util.LruCache
-import ani.shiroin.logger
-import ani.shiroin.snackString
+import ani.dantotsu.logger
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.source.online.HttpSource
 import kotlinx.coroutines.Dispatchers
@@ -69,7 +69,7 @@ fun saveImage(
                 put(MediaStore.MediaColumns.MIME_TYPE, "image/${format.name.lowercase()}")
                 put(
                     MediaStore.MediaColumns.RELATIVE_PATH,
-                    "${Environment.DIRECTORY_DOWNLOADS}/ShiroIN/Manga"
+                    "${Environment.DIRECTORY_DOWNLOADS}/Dantotsu/Manga"
                 )
             }
 
@@ -83,7 +83,7 @@ fun saveImage(
             }
         } else {
             val directory =
-                File("${Environment.getExternalStorageDirectory()}${File.separator}ShiroIN${File.separator}Manga")
+                File("${Environment.getExternalStorageDirectory()}${File.separator}Dantotsu${File.separator}Manga")
             if (!directory.exists()) {
                 directory.mkdirs()
             }

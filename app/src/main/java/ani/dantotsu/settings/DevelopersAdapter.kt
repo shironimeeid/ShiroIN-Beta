@@ -1,12 +1,12 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.databinding.ItemDeveloperBinding
-import ani.shiroin.loadImage
-import ani.shiroin.openLinkInBrowser
-import ani.shiroin.setAnimation
+import ani.dantotsu.databinding.ItemDeveloperBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.openLinkInBrowser
+import ani.dantotsu.setAnimation
 
 class DevelopersAdapter(private val developers: Array<Developer>) :
     RecyclerView.Adapter<DevelopersAdapter.DeveloperViewHolder>() {

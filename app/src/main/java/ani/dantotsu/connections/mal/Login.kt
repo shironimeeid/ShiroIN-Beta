@@ -1,20 +1,20 @@
-package ani.shiroin.connections.mal
+package ani.dantotsu.connections.mal
 
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import ani.shiroin.R
-import ani.shiroin.client
-import ani.shiroin.connections.mal.MAL.clientId
-import ani.shiroin.connections.mal.MAL.saveResponse
-import ani.shiroin.logError
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
-import ani.shiroin.startMainActivity
-import ani.shiroin.themes.ThemeManager
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.R
+import ani.dantotsu.client
+import ani.dantotsu.connections.mal.MAL.clientId
+import ani.dantotsu.connections.mal.MAL.saveResponse
+import ani.dantotsu.logError
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
+import ani.dantotsu.startMainActivity
+import ani.dantotsu.themes.ThemeManager
+import ani.dantotsu.tryWithSuspend
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

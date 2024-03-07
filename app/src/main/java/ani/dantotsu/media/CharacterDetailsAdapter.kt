@@ -1,14 +1,14 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.currActivity
-import ani.shiroin.databinding.ItemCharacterDetailsBinding
-import ani.shiroin.others.SpoilerPlugin
+import ani.dantotsu.R
+import ani.dantotsu.currActivity
+import ani.dantotsu.databinding.ItemCharacterDetailsBinding
+import ani.dantotsu.others.SpoilerPlugin
 import io.noties.markwon.Markwon
 import io.noties.markwon.SoftBreakAddsNewLinePlugin
 

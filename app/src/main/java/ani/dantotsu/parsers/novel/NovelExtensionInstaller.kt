@@ -1,4 +1,4 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 import android.app.DownloadManager
 import android.content.BroadcastReceiver
@@ -14,7 +14,7 @@ import android.util.Log
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
-import ani.shiroin.snackString
+import ani.dantotsu.snackString
 import com.jakewharton.rxrelay.PublishRelay
 import eu.kanade.tachiyomi.extension.InstallStep
 import eu.kanade.tachiyomi.util.storage.getUriCompat

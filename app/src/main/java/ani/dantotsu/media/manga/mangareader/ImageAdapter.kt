@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.animation.ObjectAnimator
 import android.content.res.Resources.getSystem
@@ -8,14 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemImageBinding
-import ani.shiroin.media.manga.MangaChapter
-import ani.shiroin.settings.CurrentReaderSettings.Directions.LEFT_TO_RIGHT
-import ani.shiroin.settings.CurrentReaderSettings.Directions.RIGHT_TO_LEFT
-import ani.shiroin.settings.CurrentReaderSettings.Layouts.PAGED
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemImageBinding
+import ani.dantotsu.media.manga.MangaChapter
+import ani.dantotsu.settings.CurrentReaderSettings.Directions.LEFT_TO_RIGHT
+import ani.dantotsu.settings.CurrentReaderSettings.Directions.RIGHT_TO_LEFT
+import ani.dantotsu.settings.CurrentReaderSettings.Layouts.PAGED
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 import com.davemorrissey.labs.subscaleview.ImageSource
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView

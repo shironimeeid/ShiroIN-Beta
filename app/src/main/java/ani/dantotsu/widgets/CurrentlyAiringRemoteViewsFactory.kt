@@ -1,4 +1,4 @@
-package ani.shiroin.widgets
+package ani.dantotsu.widgets
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.widget.RemoteViews
 import android.widget.RemoteViewsService
-import ani.shiroin.R
-import ani.shiroin.logger
+import ani.dantotsu.R
+import ani.dantotsu.logger
 import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL

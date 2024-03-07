@@ -1,14 +1,14 @@
-package ani.shiroin.connections
+package ani.dantotsu.connections
 
-import ani.shiroin.R
-import ani.shiroin.Refresh
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.mal.MAL
-import ani.shiroin.currContext
-import ani.shiroin.media.Media
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.toast
+import ani.dantotsu.R
+import ani.dantotsu.Refresh
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.mal.MAL
+import ani.dantotsu.currContext
+import ani.dantotsu.media.Media
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

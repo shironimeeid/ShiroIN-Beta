@@ -91,5 +91,5 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
-    <style name="ThemeOverlay_shiroin_MediaRouter" parent="ThemeOverlay.AppCompat"></style>
+    <style name="ThemeOverlay_Dantotsu_MediaRouter" parent="ThemeOverlay.AppCompat"></style>
 </resources>

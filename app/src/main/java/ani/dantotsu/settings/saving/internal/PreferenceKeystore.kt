@@ -1,4 +1,4 @@
-package ani.shiroin.settings.saving.internal
+package ani.dantotsu.settings.saving.internal
 
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties

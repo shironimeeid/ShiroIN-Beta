@@ -1,4 +1,4 @@
-package ani.shiroin.media.user
+package ani.dantotsu.media.user
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

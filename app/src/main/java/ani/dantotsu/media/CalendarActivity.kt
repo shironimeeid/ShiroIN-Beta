@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -13,15 +13,15 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.lifecycleScope
-import ani.shiroin.R
-import ani.shiroin.Refresh
-import ani.shiroin.databinding.ActivityListBinding
-import ani.shiroin.media.user.ListViewPagerAdapter
-import ani.shiroin.navBarHeight
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.statusBarHeight
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.Refresh
+import ani.dantotsu.databinding.ActivityListBinding
+import ani.dantotsu.media.user.ListViewPagerAdapter
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.statusBarHeight
+import ani.dantotsu.themes.ThemeManager
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.Dispatchers

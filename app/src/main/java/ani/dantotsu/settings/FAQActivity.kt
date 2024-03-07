@@ -1,13 +1,13 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.databinding.ActivityFaqBinding
-import ani.shiroin.initActivity
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.ActivityFaqBinding
+import ani.dantotsu.initActivity
+import ani.dantotsu.themes.ThemeManager
 
 class FAQActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFaqBinding

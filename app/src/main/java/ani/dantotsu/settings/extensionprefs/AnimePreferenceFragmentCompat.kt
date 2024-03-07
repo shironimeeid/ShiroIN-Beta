@@ -1,4 +1,4 @@
-package ani.shiroin.settings.extensionprefs
+package ani.dantotsu.settings.extensionprefs
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -11,7 +11,7 @@ import androidx.preference.EditTextPreference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.forEach
 import androidx.preference.getOnBindEditTextListener
-import ani.shiroin.snackString
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.PreferenceScreen
 import eu.kanade.tachiyomi.animesource.ConfigurableAnimeSource
 import eu.kanade.tachiyomi.data.preference.SharedPreferencesDataStore

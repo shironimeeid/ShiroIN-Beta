@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.currActivity
-import ani.shiroin.databinding.ItemGenreBinding
-import ani.shiroin.loadImage
-import ani.shiroin.px
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.currActivity
+import ani.dantotsu.databinding.ItemGenreBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.px
 
 class GenreAdapter(
     private val type: String,

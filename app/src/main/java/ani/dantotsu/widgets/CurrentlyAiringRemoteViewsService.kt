@@ -1,8 +1,8 @@
-package ani.shiroin.widgets
+package ani.dantotsu.widgets
 
 import android.content.Intent
 import android.widget.RemoteViewsService
-import ani.shiroin.logger
+import ani.dantotsu.logger
 
 class CurrentlyAiringRemoteViewsService : RemoteViewsService() {
     override fun onGetViewFactory(intent: Intent): RemoteViewsFactory {

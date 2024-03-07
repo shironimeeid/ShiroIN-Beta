@@ -1,13 +1,13 @@
-package ani.shiroin.media.user
+package ani.dantotsu.media.user
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.media.Media
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.media.Media
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.tryWithSuspend
 
 class ListViewModel : ViewModel() {
     var grid = MutableLiveData(PrefManager.getVal<Boolean>(PrefName.ListGrid))

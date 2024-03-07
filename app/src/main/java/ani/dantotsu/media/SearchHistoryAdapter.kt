@@ -1,4 +1,4 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,12 +6,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.databinding.ItemSearchHistoryBinding
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefManager.asLiveStringSet
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.settings.saving.SharedPreferenceStringSetLiveData
+import ani.dantotsu.R
+import ani.dantotsu.databinding.ItemSearchHistoryBinding
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefManager.asLiveStringSet
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.settings.saving.SharedPreferenceStringSetLiveData
 import java.util.Locale
 
 class SearchHistoryAdapter(private val type: String, private val searchClicked: (String) -> Unit) :

@@ -1,4 +1,4 @@
-package ani.shiroin.settings.saving
+package ani.dantotsu.settings.saving
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData

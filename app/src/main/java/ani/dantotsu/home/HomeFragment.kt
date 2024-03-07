@@ -1,4 +1,4 @@
-package ani.shiroin.home
+package ani.dantotsu.home
 
 import android.animation.ObjectAnimator
 import android.content.Intent
@@ -19,27 +19,27 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.R
-import ani.shiroin.Refresh
-import ani.shiroin.bottomBar
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.anilist.AnilistHomeViewModel
-import ani.shiroin.connections.anilist.getUserId
-import ani.shiroin.currContext
-import ani.shiroin.databinding.FragmentHomeBinding
-import ani.shiroin.loadImage
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaAdaptor
-import ani.shiroin.media.user.ListActivity
-import ani.shiroin.navBarHeight
-import ani.shiroin.setSafeOnClickListener
-import ani.shiroin.setSlideIn
-import ani.shiroin.setSlideUp
-import ani.shiroin.settings.SettingsDialogFragment
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
-import ani.shiroin.statusBarHeight
+import ani.dantotsu.R
+import ani.dantotsu.Refresh
+import ani.dantotsu.bottomBar
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.anilist.AnilistHomeViewModel
+import ani.dantotsu.connections.anilist.getUserId
+import ani.dantotsu.currContext
+import ani.dantotsu.databinding.FragmentHomeBinding
+import ani.dantotsu.loadImage
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaAdaptor
+import ani.dantotsu.media.user.ListActivity
+import ani.dantotsu.navBarHeight
+import ani.dantotsu.setSafeOnClickListener
+import ani.dantotsu.setSlideIn
+import ani.dantotsu.setSlideUp
+import ani.dantotsu.settings.SettingsDialogFragment
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
+import ani.dantotsu.statusBarHeight
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -297,11 +297,11 @@ class HomeFragment : Fragment() {
         binding.homeUserAvatarContainer.startAnimation(setSlideUp())
 
         model.empty.observe(viewLifecycleOwner) {
-            binding.homeshiroinContainer.visibility = if (it == true) View.VISIBLE else View.GONE
-            (binding.homeshiroinIcon.drawable as Animatable).start()
-            binding.homeshiroinContainer.startAnimation(setSlideUp())
-            binding.homeshiroinIcon.setSafeOnClickListener {
-                (binding.homeshiroinIcon.drawable as Animatable).start()
+            binding.homeDantotsuContainer.visibility = if (it == true) View.VISIBLE else View.GONE
+            (binding.homeDantotsuIcon.drawable as Animatable).start()
+            binding.homeDantotsuContainer.startAnimation(setSlideUp())
+            binding.homeDantotsuIcon.setSafeOnClickListener {
+                (binding.homeDantotsuIcon.drawable as Animatable).start()
             }
         }
 

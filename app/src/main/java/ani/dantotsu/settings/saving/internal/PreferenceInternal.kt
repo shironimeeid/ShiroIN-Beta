@@ -1,4 +1,4 @@
-package ani.shiroin.settings.saving.internal
+package ani.dantotsu.settings.saving.internal
 
 import kotlin.reflect.KClass
 
@@ -10,12 +10,12 @@ data class Pref(
 )
 
 enum class Location(val location: String, val exportable: Boolean) {
-    General("ani.shiroin.general", true),
-    UI("ani.shiroin.ui", true),
-    Player("ani.shiroin.player", true),
-    Reader("ani.shiroin.reader", true),
-    NovelReader("ani.shiroin.novelReader", true),
-    Irrelevant("ani.shiroin.irrelevant", false),
+    General("ani.dantotsu.general", true),
+    UI("ani.dantotsu.ui", true),
+    Player("ani.dantotsu.player", true),
+    Reader("ani.dantotsu.reader", true),
+    NovelReader("ani.dantotsu.novelReader", true),
+    Irrelevant("ani.dantotsu.irrelevant", false),
     AnimeDownloads("animeDownloads", false),  //different for legacy reasons
-    Protected("ani.shiroin.protected", true),
+    Protected("ani.dantotsu.protected", true),
 }

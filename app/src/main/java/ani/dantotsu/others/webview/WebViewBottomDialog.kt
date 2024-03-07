@@ -1,4 +1,4 @@
-package ani.shiroin.others.webview
+package ani.dantotsu.others.webview
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.CookieManager
 import android.webkit.WebViewClient
-import ani.shiroin.BottomSheetDialogFragment
-import ani.shiroin.FileUrl
-import ani.shiroin.databinding.BottomSheetWebviewBinding
-import ani.shiroin.defaultHeaders
+import ani.dantotsu.BottomSheetDialogFragment
+import ani.dantotsu.FileUrl
+import ani.dantotsu.databinding.BottomSheetWebviewBinding
+import ani.dantotsu.defaultHeaders
 import eu.kanade.tachiyomi.network.NetworkHelper
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

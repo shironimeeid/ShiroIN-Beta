@@ -1,11 +1,11 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.FileUrl
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.settings.saving.PrefManager
+import ani.dantotsu.FileUrl
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.settings.saving.PrefManager
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.source.model.SManga
 import me.xdrop.fuzzywuzzy.FuzzySearch

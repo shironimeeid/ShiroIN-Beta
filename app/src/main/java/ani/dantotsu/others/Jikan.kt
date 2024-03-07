@@ -1,8 +1,8 @@
-package ani.shiroin.others
+package ani.dantotsu.others
 
-import ani.shiroin.client
-import ani.shiroin.media.anime.Episode
-import ani.shiroin.tryWithSuspend
+import ani.dantotsu.client
+import ani.dantotsu.media.anime.Episode
+import ani.dantotsu.tryWithSuspend
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

@@ -1,13 +1,13 @@
 <resources>
 
-    <style name="Theme.ShiroIN" parent="Theme.Base">
+    <style name="Theme.Dantotsu" parent="Theme.Base">
         <item name="android:statusBarColor">@color/status</item>
         <item name="colorOnPrimary">@color/bg_black</item>
         <item name="android:textColor">@color/bg_white</item>
         <item name="colorSecondaryVariant">@color/violet_400</item>
     </style>
 
-    <style name="Theme.ShiroIN.Blue" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Blue" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_1_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_1_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_1_primaryContainer</item>
@@ -36,7 +36,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_1_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Green" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Green" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_2_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_2_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_2_primaryContainer</item>
@@ -65,7 +65,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_2_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Purple" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Purple" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_3_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_3_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_3_primaryContainer</item>
@@ -94,7 +94,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_3_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Pink" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Pink" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_4_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_4_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_4_primaryContainer</item>
@@ -123,7 +123,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_4_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Saikou" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Saikou" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_5_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_5_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_5_primaryContainer</item>
@@ -152,7 +152,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_5_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Red" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Red" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_6_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_6_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_6_primaryContainer</item>
@@ -181,7 +181,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_6_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Lavender" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Lavender" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_7_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_7_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_7_primaryContainer</item>
@@ -210,7 +210,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_7_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Ocean" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Ocean" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_8_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_8_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_8_primaryContainer</item>
@@ -239,7 +239,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_8_inversePrimary</item>
     </style>
 
-    <style name="Theme.ShiroIN.Monochrome" parent="Theme.Base">
+    <style name="Theme.Dantotsu.Monochrome" parent="Theme.Base">
         <item name="colorPrimary">@color/bg_white</item>
         <item name="colorOnPrimary">@color/bg_black</item>
         <item name="colorPrimaryContainer">@color/bg_white</item>
@@ -268,55 +268,55 @@
         <item name="colorPrimaryInverse">@color/bg_black</item>
     </style>
 
-    <style name="Theme.ShiroIN.BlueOLED" parent="Theme.ShiroIN.Blue">
+    <style name="Theme.Dantotsu.BlueOLED" parent="Theme.Dantotsu.Blue">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.GreenOLED" parent="Theme.ShiroIN.Green">
+    <style name="Theme.Dantotsu.GreenOLED" parent="Theme.Dantotsu.Green">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.PurpleOLED" parent="Theme.ShiroIN.Purple">
+    <style name="Theme.Dantotsu.PurpleOLED" parent="Theme.Dantotsu.Purple">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.PinkOLED" parent="Theme.ShiroIN.Pink">
+    <style name="Theme.Dantotsu.PinkOLED" parent="Theme.Dantotsu.Pink">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.MonochromeOLED" parent="Theme.ShiroIN.Monochrome">
+    <style name="Theme.Dantotsu.MonochromeOLED" parent="Theme.Dantotsu.Monochrome">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.RedOLED" parent="Theme.ShiroIN.Red">
+    <style name="Theme.Dantotsu.RedOLED" parent="Theme.Dantotsu.Red">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.LavenderOLED" parent="Theme.ShiroIN.Lavender">
+    <style name="Theme.Dantotsu.LavenderOLED" parent="Theme.Dantotsu.Lavender">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.SaikouOLED" parent="Theme.ShiroIN.Saikou">
+    <style name="Theme.Dantotsu.SaikouOLED" parent="Theme.Dantotsu.Saikou">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.ShiroIN.OceanOLED" parent="Theme.ShiroIN.Ocean">
+    <style name="Theme.Dantotsu.OceanOLED" parent="Theme.Dantotsu.Ocean">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>

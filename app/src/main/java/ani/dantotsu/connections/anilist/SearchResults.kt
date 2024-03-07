@@ -1,8 +1,8 @@
-package ani.shiroin.connections.anilist
+package ani.dantotsu.connections.anilist
 
-import ani.shiroin.R
-import ani.shiroin.currContext
-import ani.shiroin.media.Media
+import ani.dantotsu.R
+import ani.dantotsu.currContext
+import ani.dantotsu.media.Media
 import java.io.Serializable
 
 data class SearchResults(

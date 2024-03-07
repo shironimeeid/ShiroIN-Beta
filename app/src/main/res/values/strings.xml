@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en-rUS">
 
-    <string name="repo">shironimeeid/ShiroIN-Beta</string>
-    <string name="preference_file_key" translatable="false">shiroinprefs</string>
+    <string name="repo">rebelonion/ShiroIN</string>
+    <string name="preference_file_key" translatable="false">ShiroIN</string>
 
     <string name="app_name">ShiroIN</string>
     <string name="slogan">The NEW Best Anime &amp; Manga app for Android.</string>
@@ -9,8 +9,8 @@
     <string name="login">Login</string>
     <string name="logout">Logout</string>
 
-    <string name="discord">https://discord.gg/</string>
-    <string name="github">https://github.com/shironimeeeid/ShiroIN-Beta</string>
+    <string name="discord">https://discord.gg</string>
+    <string name="github">https://github.com/shironimeeid/ShiroIN-Beta</string>
     <string name="telegram" tools:ignore="Typos">https://t.me/ </string>
     <string name="home">Home</string>
     <string name="anime">Anime</string>
@@ -174,7 +174,7 @@
     <string name="theme">Theme</string>
     <string name="ui_settings">UI Settings</string>
     <string name="about">About</string>
-    <string name="desc">"    ShiroIN is crafted from the ashes of Saikou and based on simplistic yet state-of-the-art elegance. It is an Anilist only client, which also lets you stream-download Anime through extensions &amp; Manga.\nshiroin literally means the \"best of the best\" in japanese. Well, we would like to say this is the best open source app for anime and manga on Android, what would you say?"</string>
+    <string name="desc">"    ShiroIN is crafted from the ashes of Saikou and based on simplistic yet state-of-the-art elegance. It is an Anilist only client, which also lets you stream-download Anime through extensions &amp; Manga.\nShiroIN literally means the \"best of the best\" in japanese. Well, we would like to say this is the best open source app for anime and manga on Android, what would you say?"</string>
     <string name="devs">Developers/Helpers</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="full_disclaimer">
@@ -479,8 +479,8 @@
     <string name="type_source">SOURCE</string>
     <string name="type_contains">CONTAINS</string>
 
-    <string name="read_on_shiroin">Read on ShiroIN</string>
-    <string name="watch_on_shiroin">Watch on ShiroIN</string>
+    <string name="read_on_dantatsu">Read on ShiroIN</string>
+    <string name="watch_on_dantotsu">Watch on ShiroIN</string>
     <string name="continue_episode">"Continue : Episode "</string>
     <string name="continue_chapter">"Continue : "</string>
     <string name="episode">"Episode "</string>
@@ -619,7 +619,7 @@
     <string name="discord_logout_success">Successfully Logged Out</string>
     <string name="discord_try_again">Try logging-in again</string>
     <string name="error_loading_discord_user_data">Error loading Discord User Data</string>
-    <string name="discord_warning"><![CDATA[By logging in, your discord will now show what you are watching & reading on ShiroIN\n\nIf you are on invisible mode, logging in will make you online, when you open ShiroIN.\n\nThis does break the Discord TOS. \nAlthough Discord has never banned anyone for using Custom Rich Presence(what ShiroIN uses), You have still been warned.\n\nshiroin is not responsible for anything that happens to your account.]]></string>
+    <string name="discord_warning"><![CDATA[By logging in, your discord will now show what you are watching & reading on ShiroIN\n\nIf you are on invisible mode, logging in will make you online, when you open ShiroIN.\n\nThis does break the Discord TOS. \nAlthough Discord has never banned anyone for using Custom Rich Presence(what ShiroIN uses), You have still been warned.\n\nShiroIN is not responsible for anything that happens to your account.]]></string>
     <string name="warning">Warning</string>
     <string name="view_anime">View Anime</string>
     <string name="view_manga">View Manga</string>

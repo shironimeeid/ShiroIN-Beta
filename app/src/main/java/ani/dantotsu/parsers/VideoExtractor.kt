@@ -1,6 +1,6 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
-import ani.shiroin.FileUrl
+import ani.dantotsu.FileUrl
 import java.io.Serializable
 
 /**

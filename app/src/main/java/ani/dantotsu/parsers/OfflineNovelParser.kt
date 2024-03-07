@@ -1,9 +1,9 @@
-package ani.shiroin.parsers
+package ani.dantotsu.parsers
 
 import android.os.Environment
-import ani.shiroin.currContext
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.media.manga.MangaNameAdapter
+import ani.dantotsu.currContext
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.media.manga.MangaNameAdapter
 import me.xdrop.fuzzywuzzy.FuzzySearch
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
@@ -23,7 +23,7 @@ class OfflineNovelParser : NovelParser() {
         //link should be a directory
         val directory = File(
             currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-            "ShiroIN/Novel/$link"
+            "Dantotsu/Novel/$link"
         )
         val chapters = mutableListOf<Book>()
         if (directory.exists()) {
@@ -62,7 +62,7 @@ class OfflineNovelParser : NovelParser() {
             //need to search the subdirectories for the ShowResponses
             val directory = File(
                 currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Novel/$title"
+                "Dantotsu/Novel/$title"
             )
             val names = mutableListOf<String>()
             if (directory.exists()) {
@@ -73,7 +73,7 @@ class OfflineNovelParser : NovelParser() {
                 }
             }
             val cover =
-                currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)?.absolutePath + "/ShiroIN/Novel/$title/cover.jpg"
+                currContext()?.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)?.absolutePath + "/Dantotsu/Novel/$title/cover.jpg"
             names.forEach {
                 returnList.add(ShowResponse(it, it, cover))
             }

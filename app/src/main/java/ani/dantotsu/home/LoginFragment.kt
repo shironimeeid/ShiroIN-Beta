@@ -1,4 +1,4 @@
-package ani.shiroin.home
+package ani.dantotsu.home
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -10,13 +10,13 @@ import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.documentfile.provider.DocumentFile
 import androidx.fragment.app.Fragment
-import ani.shiroin.R
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.databinding.FragmentLoginBinding
-import ani.shiroin.openLinkInBrowser
-import ani.shiroin.settings.saving.internal.PreferenceKeystore
-import ani.shiroin.settings.saving.internal.PreferencePackager
-import ani.shiroin.toast
+import ani.dantotsu.R
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.databinding.FragmentLoginBinding
+import ani.dantotsu.openLinkInBrowser
+import ani.dantotsu.settings.saving.internal.PreferenceKeystore
+import ani.dantotsu.settings.saving.internal.PreferencePackager
+import ani.dantotsu.toast
 import com.google.android.material.textfield.TextInputEditText
 
 class LoginFragment : Fragment() {

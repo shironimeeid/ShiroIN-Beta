@@ -1,4 +1,4 @@
-package ani.shiroin.settings
+package ani.dantotsu.settings
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -22,16 +22,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.databinding.FragmentAnimeExtensionsBinding
-import ani.shiroin.logger
-import ani.shiroin.others.LanguageMapper
-import ani.shiroin.parsers.AnimeSources
-import ani.shiroin.settings.extensionprefs.AnimeSourcePreferencesFragment
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.databinding.FragmentAnimeExtensionsBinding
+import ani.dantotsu.logger
+import ani.dantotsu.others.LanguageMapper
+import ani.dantotsu.parsers.AnimeSources
+import ani.dantotsu.settings.extensionprefs.AnimeSourcePreferencesFragment
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.snackString
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.textfield.TextInputLayout
 import eu.kanade.tachiyomi.animesource.ConfigurableAnimeSource

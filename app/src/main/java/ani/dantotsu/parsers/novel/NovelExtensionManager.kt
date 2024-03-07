@@ -1,9 +1,9 @@
-package ani.shiroin.parsers.novel
+package ani.dantotsu.parsers.novel
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import ani.shiroin.logger
-import ani.shiroin.snackString
+import ani.dantotsu.logger
+import ani.dantotsu.snackString
 import eu.kanade.tachiyomi.extension.InstallStep
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

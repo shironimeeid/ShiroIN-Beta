@@ -1,9 +1,9 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ani.shiroin.databinding.ItemTitleBinding
+import ani.dantotsu.databinding.ItemTitleBinding
 
 class TitleAdapter(private val text: String) :
     RecyclerView.Adapter<TitleAdapter.TitleViewHolder>() {

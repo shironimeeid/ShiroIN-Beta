@@ -1,9 +1,9 @@
-package ani.shiroin.settings.saving
+package ani.dantotsu.settings.saving
 
 import android.graphics.Color
-import ani.shiroin.connections.mal.MAL
-import ani.shiroin.settings.saving.internal.Location
-import ani.shiroin.settings.saving.internal.Pref
+import ani.dantotsu.connections.mal.MAL
+import ani.dantotsu.settings.saving.internal.Location
+import ani.dantotsu.settings.saving.internal.Pref
 
 enum class PrefName(val data: Pref) {  //TODO: Split this into multiple files
     //General

@@ -1,4 +1,4 @@
-package ani.shiroin.download.novel
+package ani.dantotsu.download.novel
 
 import android.Manifest
 import android.app.Service
@@ -16,14 +16,14 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import ani.shiroin.R
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.download.DownloadedType
-import ani.shiroin.download.DownloadsManager
-import ani.shiroin.logger
-import ani.shiroin.media.Media
-import ani.shiroin.media.novel.NovelReadFragment
-import ani.shiroin.snackString
+import ani.dantotsu.R
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.download.DownloadedType
+import ani.dantotsu.download.DownloadsManager
+import ani.dantotsu.logger
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.novel.NovelReadFragment
+import ani.dantotsu.snackString
 import com.google.gson.GsonBuilder
 import com.google.gson.InstanceCreator
 import eu.kanade.tachiyomi.data.notification.Notifications
@@ -251,7 +251,7 @@ class NovelDownloaderService : Service() {
 
                             val file = File(
                                 this@NovelDownloaderService.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                                "ShiroIN/Novel/${task.title}/${task.chapter}/0.epub"
+                                "Dantotsu/Novel/${task.title}/${task.chapter}/0.epub"
                             )
 
                             // Create directories if they don't exist
@@ -351,7 +351,7 @@ class NovelDownloaderService : Service() {
         GlobalScope.launch(Dispatchers.IO) {
             val directory = File(
                 getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),
-                "ShiroIN/Novel/${task.title}"
+                "Dantotsu/Novel/${task.title}"
             )
             if (!directory.exists()) directory.mkdirs()
 

@@ -1,6 +1,6 @@
-package ani.shiroin.media
+package ani.dantotsu.media
 
-import ani.shiroin.connections.anilist.api.FuzzyDate
+import ani.dantotsu.connections.anilist.api.FuzzyDate
 import java.io.Serializable
 
 data class Character(

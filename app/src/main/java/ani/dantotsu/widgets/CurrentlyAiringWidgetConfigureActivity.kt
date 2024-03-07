@@ -1,4 +1,4 @@
-package ani.shiroin.widgets
+package ani.dantotsu.widgets
 
 import android.app.Activity
 import android.appwidget.AppWidgetManager
@@ -7,9 +7,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
-import ani.shiroin.R
-import ani.shiroin.databinding.CurrentlyAiringWidgetConfigureBinding
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.R
+import ani.dantotsu.databinding.CurrentlyAiringWidgetConfigureBinding
+import ani.dantotsu.themes.ThemeManager
 
 /**
  * The configuration screen for the [CurrentlyAiringWidget] AppWidget.
@@ -85,7 +85,7 @@ class CurrentlyAiringWidgetConfigureActivity : Activity() {
 
 }
 
-private const val PREFS_NAME = "ani.shiroin.parsers.CurrentlyAiringWidget"
+private const val PREFS_NAME = "ani.dantotsu.parsers.CurrentlyAiringWidget"
 private const val PREF_PREFIX_KEY = "appwidget_"
 
 // Write the prefix to the SharedPreferences object for this widget

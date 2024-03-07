@@ -1,6 +1,6 @@
-package ani.shiroin.media.manga
+package ani.dantotsu.media.manga
 
-import ani.shiroin.media.Author
+import ani.dantotsu.media.Author
 import java.io.Serializable
 
 data class Manga(

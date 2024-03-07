@@ -1,7 +1,7 @@
-package ani.shiroin.media.anime
+package ani.dantotsu.media.anime
 
-import ani.shiroin.media.Author
-import ani.shiroin.media.Studio
+import ani.dantotsu.media.Author
+import ani.dantotsu.media.Studio
 import java.io.Serializable
 
 data class Anime(

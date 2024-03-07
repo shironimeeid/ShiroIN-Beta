@@ -1,4 +1,4 @@
-package ani.shiroin.connections.crashlytics
+package ani.dantotsu.connections.crashlytics
 
 import android.content.Context
 

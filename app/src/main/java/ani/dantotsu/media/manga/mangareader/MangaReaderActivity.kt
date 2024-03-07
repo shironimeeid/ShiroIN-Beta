@@ -1,4 +1,4 @@
-package ani.shiroin.media.manga.mangareader
+package ani.dantotsu.media.manga.mangareader
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -26,33 +26,33 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import ani.shiroin.*
-import ani.shiroin.connections.anilist.Anilist
-import ani.shiroin.connections.crashlytics.CrashlyticsInterface
-import ani.shiroin.connections.discord.Discord
-import ani.shiroin.connections.discord.DiscordService
-import ani.shiroin.connections.discord.DiscordServiceRunningSingleton
-import ani.shiroin.connections.discord.RPC
-import ani.shiroin.connections.updateProgress
-import ani.shiroin.databinding.ActivityMangaReaderBinding
-import ani.shiroin.media.Media
-import ani.shiroin.media.MediaDetailsViewModel
-import ani.shiroin.media.MediaSingleton
-import ani.shiroin.media.manga.MangaCache
-import ani.shiroin.media.manga.MangaChapter
-import ani.shiroin.media.manga.MangaNameAdapter
-import ani.shiroin.others.ImageViewDialog
-import ani.shiroin.parsers.HMangaSources
-import ani.shiroin.parsers.MangaImage
-import ani.shiroin.parsers.MangaSources
-import ani.shiroin.settings.CurrentReaderSettings
-import ani.shiroin.settings.CurrentReaderSettings.Companion.applyWebtoon
-import ani.shiroin.settings.CurrentReaderSettings.Directions.*
-import ani.shiroin.settings.CurrentReaderSettings.DualPageModes.*
-import ani.shiroin.settings.CurrentReaderSettings.Layouts.*
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.themes.ThemeManager
+import ani.dantotsu.*
+import ani.dantotsu.connections.anilist.Anilist
+import ani.dantotsu.connections.crashlytics.CrashlyticsInterface
+import ani.dantotsu.connections.discord.Discord
+import ani.dantotsu.connections.discord.DiscordService
+import ani.dantotsu.connections.discord.DiscordServiceRunningSingleton
+import ani.dantotsu.connections.discord.RPC
+import ani.dantotsu.connections.updateProgress
+import ani.dantotsu.databinding.ActivityMangaReaderBinding
+import ani.dantotsu.media.Media
+import ani.dantotsu.media.MediaDetailsViewModel
+import ani.dantotsu.media.MediaSingleton
+import ani.dantotsu.media.manga.MangaCache
+import ani.dantotsu.media.manga.MangaChapter
+import ani.dantotsu.media.manga.MangaNameAdapter
+import ani.dantotsu.others.ImageViewDialog
+import ani.dantotsu.parsers.HMangaSources
+import ani.dantotsu.parsers.MangaImage
+import ani.dantotsu.parsers.MangaSources
+import ani.dantotsu.settings.CurrentReaderSettings
+import ani.dantotsu.settings.CurrentReaderSettings.Companion.applyWebtoon
+import ani.dantotsu.settings.CurrentReaderSettings.Directions.*
+import ani.dantotsu.settings.CurrentReaderSettings.DualPageModes.*
+import ani.dantotsu.settings.CurrentReaderSettings.Layouts.*
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.themes.ThemeManager
 import com.alexvasilkov.gestures.views.GestureFrameLayout
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
@@ -327,13 +327,13 @@ class MangaReaderActivity : AppCompatActivity() {
                                     RPC.Link(media.userPreferredName, cover)
                                 },
                                 smallImage = RPC.Link(
-                                    "ShiroIN",
+                                    "Dantotsu",
                                     Discord.small_Image
                                 ),
                                 buttons = mutableListOf(
                                     RPC.Link(getString(R.string.view_manga), media.shareLink ?: ""),
                                     RPC.Link(
-                                        "Stream on ShiroIN",
+                                        "Stream on Dantotsu",
                                         "https://github.com/shironimeeid/ShiroManga-ID/"
                                     )
                                 )

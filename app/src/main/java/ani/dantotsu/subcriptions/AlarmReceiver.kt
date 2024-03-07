@@ -1,19 +1,19 @@
-package ani.shiroin.subcriptions
+package ani.dantotsu.subcriptions
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import ani.shiroin.currContext
-import ani.shiroin.isOnline
-import ani.shiroin.logger
-import ani.shiroin.settings.saving.PrefManager
-import ani.shiroin.settings.saving.PrefName
-import ani.shiroin.subcriptions.Subscription.Companion.defaultTime
-import ani.shiroin.subcriptions.Subscription.Companion.startSubscription
-import ani.shiroin.subcriptions.Subscription.Companion.timeMinutes
-import ani.shiroin.tryWith
+import ani.dantotsu.currContext
+import ani.dantotsu.isOnline
+import ani.dantotsu.logger
+import ani.dantotsu.settings.saving.PrefManager
+import ani.dantotsu.settings.saving.PrefName
+import ani.dantotsu.subcriptions.Subscription.Companion.defaultTime
+import ani.dantotsu.subcriptions.Subscription.Companion.startSubscription
+import ani.dantotsu.subcriptions.Subscription.Companion.timeMinutes
+import ani.dantotsu.tryWith
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -22,7 +22,7 @@ class AlarmReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         when (intent?.action) {
             Intent.ACTION_BOOT_COMPLETED -> tryWith(true) {
-                logger("Starting ShiroIN Subscription Service on Boot")
+                logger("Starting Dantotsu Subscription Service on Boot")
                 context?.startSubscription()
             }
         }
@@ -37,7 +37,7 @@ class AlarmReceiver : BroadcastReceiver() {
 
         fun alarm(context: Context) {
             val alarmIntent = Intent(context, AlarmReceiver::class.java)
-            alarmIntent.action = "ani.shiroin.ACTION_ALARM"
+            alarmIntent.action = "ani.dantotsu.ACTION_ALARM"
 
             val pendingIntent = PendingIntent.getBroadcast(
                 context, 0, alarmIntent,
