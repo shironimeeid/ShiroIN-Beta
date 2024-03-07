@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
    <img src="https://pbxt.replicate.delivery/2PX94viD6lJSDVayQrGyDH7CGu7IjQ6e8HEtOGDeelefXRdOC/out.png" alt="Dantotsu Banner" width=100% >
 </p>
@@ -9,12 +10,17 @@
 </p>
 
 # **Dantotsu** 🌟
+=======
+
+
+# **ShiroIN Project Dantotsu** 🌟
+>>>>>>> 6c20c8d2434f588791b1f10b77d0477d7373b0f3
 
 Dantotsu is an [Anilist](https://anilist.co/) only client.
 
 > **Dantotsu (断トツ; Dan-totsu)** literally means "the best of the best" in Japanese. Try it out for yourself and be the judge!
 
-<a href="https://www.buymeacoffee.com/rebelonion"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rebelonion&button_colour=FFDD00&font_colour=030201&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+<a href=""><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rebelonion&button_colour=FFDD00&font_colour=030201&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 ### 🚀 STAR THIS REPOSITORY TO SUPPORT THE DEVELOPER AND ENCOURAGE THE DEVELOPMENT OF THE APPLICATION!
 

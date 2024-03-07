@@ -582,7 +582,7 @@ class SettingsActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListene
             lifecycleScope.launch {
                 it.pop()
             }
-            openLinkInBrowser("https://www.buymeacoffee.com/rebelonion")
+            openLinkInBrowser("")
         }
         lifecycleScope.launch {
             binding.settingBuyMeCoffee.pop()
@@ -930,7 +930,11 @@ class SettingsActivity : AppCompatActivity(), SimpleDialog.OnDialogResultListene
     companion object {
         fun getDeviceInfo(): String {
             return """
+<<<<<<< HEAD
                 Dantotsu Version: ${BuildConfig.VERSION_NAME}
+=======
+                dantotsu Version: ${BuildConfig.VERSION_NAME}
+>>>>>>> 6c20c8d2434f588791b1f10b77d0477d7373b0f3
                 Device: $BRAND $DEVICE
                 Architecture: ${getArch()}
                 OS Version: $CODENAME $RELEASE ($SDK_INT)
