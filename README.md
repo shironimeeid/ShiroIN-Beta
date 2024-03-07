@@ -1,6 +1,6 @@
 
 
-# **ShiroIN** 🌟
+# **ShiroIN Project Dantotsu** 🌟
 
 ShiroIN is an [Anilist](https://anilist.co/) only client.
 
